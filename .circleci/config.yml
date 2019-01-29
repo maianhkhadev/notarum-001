@@ -37,11 +37,15 @@ jobs:
       - run: npm run test
 
   deploy:
+    - restore_cache:
+        keys:
+        - v1-dependencies-{{ checksum "package.json" }}
+        # fallback to using the latest cache if no exact match is found
+        - v1-dependencies-
     working_directory: ~/repo
     machine:
       enabled: true
     steps:
-      - checkout
       - run:
           name: Deploy Over SSH
           command: |
