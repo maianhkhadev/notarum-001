@@ -68,7 +68,7 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            scp -o stricthostkeychecking=no -rv . $SSH_USER@$SSH_HOST:/var/www/demo-001.maianhkha.com/public_html/
+            scp -o stricthostkeychecking=no -rv build/. $SSH_USER@$SSH_HOST:/var/www/demo-001.maianhkha.com/public_html/
             # ssh $SSH_USER@$SSH_HOST "<remote deploy command>"
 
 workflows:
