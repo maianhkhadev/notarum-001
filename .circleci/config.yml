@@ -43,7 +43,9 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            ssh $SSH_USER@$SSH_HOST "<remote deploy command>"
+            ls -la
+            pwd
+            # ssh $SSH_USER@$SSH_HOST "<remote deploy command>"
 
 workflows:
   version: 2
@@ -53,10 +55,9 @@ workflows:
       - build
 
       - deploy:
-
           requires:
             - build
-            
+
           filters:
             branches:
               only: master
