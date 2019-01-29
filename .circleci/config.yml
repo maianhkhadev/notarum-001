@@ -38,8 +38,14 @@ jobs:
 
   deploy:
     working_directory: ~/repo
-    machine:
-      enabled: true
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:7.10
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mongo:3.4.4
     steps:
       - checkout
 
@@ -62,9 +68,7 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            ls -la
-            pwd
-            scp -rv ~/repo $SSH_USER@$SSH_HOST:/root/testcircle/
+            scp -rv . $SSH_USER@$SSH_HOST:/var/www/demo-001.maianhkha.com/public_html/
             # ssh $SSH_USER@$SSH_HOST "<remote deploy command>"
 
 workflows:
