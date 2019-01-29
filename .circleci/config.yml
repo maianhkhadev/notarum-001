@@ -38,8 +38,8 @@ jobs:
 
   deploy:
     working_directory: ~/repo
-    machine:
-      enabled: true
+    # machine:
+    #   enabled: true
     steps:
       - run:
           name: Deploy Over SSH
