@@ -37,12 +37,15 @@ jobs:
       - run: npm run test
 
   deploy:
+    working_directory: ~/repo
     machine:
       enabled: true
     steps:
       - run:
           name: Deploy Over SSH
           command: |
+            ls -la
+            pwd
             scp -rv ~/repo $SSH_USER@$SSH_HOST:/root/testcircle/
             # ssh $SSH_USER@$SSH_HOST "<remote deploy command>"
 
