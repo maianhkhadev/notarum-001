@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout layout-default"
+>
+  <h1
+    className="hidden"
+  >
+    Notarum
+  </h1>
+  <header
+    className="layout-header"
+  />
+  <main
+    className="layout-main"
+  />
+  <footer
+    className="layout-footer"
+  />
+</div>
+`;

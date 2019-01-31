@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './assets/scss/main.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+/**
+* jQuery and Bootstrap includes
+*/
+window.$ = window.jQuery = require('jquery')
+window.Popper = require('popper.js')
+require('bootstrap')
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

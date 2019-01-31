@@ -1,0 +1,34 @@
+.page-home {
+
+  .section-hero {
+    background-color: #2e3f6f;
+
+    .section-title {
+      color: #ffffff;
+      font-size: 2.625rem;
+    }
+
+    .section-lead {
+      color: #ffffff;
+      font-size: 1rem;
+    }
+  }
+
+  .section-partners {
+    background-color: #eeeeee;
+    border-bottom: 1px solid #dddddd;
+    padding: 2rem 0;
+  }
+
+  .section-feature-01, .section-feature-03 {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 6rem 0;
+  }
+
+  .section-feature-02 {
+    background-color: #eeeeee;
+    border-bottom: 1px solid #dddddd;
+    padding: 6rem 0;
+  }
+}
