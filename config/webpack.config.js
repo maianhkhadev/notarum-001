@@ -501,7 +501,7 @@ module.exports = function(webpackEnv) {
       new PrerenderSPAPlugin({
         routes: ['/'],
         staticDir: path.join(__dirname, '../build'),
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: ['–no-sandbox', '–disable-setuid-sandbox']
       }),
       // Inlines the webpack runtime script. This script is too small to warrant
       // a network request.
