@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Presentation from './Default.presentation';
 
-class Layout extends Component {
+class Layout extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+  }
 
   render() {
+    let props = {...this.state, ...this.props};
+
     return (
-      <div className="layout layout-default">
-        <h1 className="hidden">Notarum</h1>
-
-        <header className="layout-header">
-        </header>
-
-        <main className="layout-main">
-          {this.props.children}
-        </main>
-
-        <footer className="layout-footer">
-        </footer>
-      </div>
+      <Presentation {...props} />
     );
   }
 }

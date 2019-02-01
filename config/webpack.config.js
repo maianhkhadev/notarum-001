@@ -23,6 +23,7 @@ const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin-alt');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
+const PrerenderSPAPlugin = require('prerender-spa-plugin');
 
 
 // Source maps are resource heavy and can cause out of memory issue for large source files.
@@ -496,6 +497,11 @@ module.exports = function(webpackEnv) {
             : undefined
         )
       ),
+
+      new PrerenderSPAPlugin({
+        routes: ['/'],
+        staticDir: path.join(__dirname, '../build'),
+      }),
       // Inlines the webpack runtime script. This script is too small to warrant
       // a network request.
       isEnvProduction &&

@@ -32,7 +32,9 @@ exports[`renders correctly 1`] = `
           >
             <h2
               className="section-title"
-            />
+            >
+              Automating corporate due diligence
+            </h2>
             <p
               className="section-lead"
             >
@@ -44,7 +46,7 @@ exports[`renders correctly 1`] = `
               Learn More
             </button>
             <button
-              className="btn btn-primary"
+              className="btn btn-dark"
             >
               Purchase Now
             </button>
@@ -309,7 +311,102 @@ exports[`renders correctly 1`] = `
         />
         <section
           className="section-contact"
-        />
+        >
+          <div
+            className="section-header"
+          >
+            <h3
+              className="section-title"
+            >
+              Contact Us
+            </h3>
+          </div>
+          <div
+            className="section-content"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-xl-6"
+                >
+                  <h4>
+                    We'd love to hear from you.
+                  </h4>
+                  <p>
+                    Let us know if you are interested to participate in our beta program. We will then reach out to understand more about your business and requirements.
+                  </p>
+                </div>
+                <form
+                  className="col-xl-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <label
+                      htmlFor="exampleInputEmail1"
+                    >
+                      Email address
+                    </label>
+                    <input
+                      aria-describedby="emailHelp"
+                      className="form-control"
+                      id="exampleInputEmail1"
+                      placeholder="Enter email"
+                      type="email"
+                    />
+                    <small
+                      className="form-text text-muted"
+                      id="emailHelp"
+                    >
+                      We'll never share your email with anyone else.
+                    </small>
+                  </div>
+                  <div
+                    className="form-group"
+                  >
+                    <label
+                      htmlFor="exampleInputPassword1"
+                    >
+                      Password
+                    </label>
+                    <input
+                      autoComplete="true"
+                      className="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="Password"
+                      type="password"
+                    />
+                  </div>
+                  <div
+                    className="form-group form-check"
+                  >
+                    <input
+                      className="form-check-input"
+                      id="exampleCheck1"
+                      type="checkbox"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="exampleCheck1"
+                    >
+                      Check me out
+                    </label>
+                  </div>
+                  <button
+                    className="btn btn-primary"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <div
         className="page-footer"
@@ -318,6 +415,49 @@ exports[`renders correctly 1`] = `
   </main>
   <footer
     className="layout-footer"
-  />
+  >
+    <div
+      className="container"
+    >
+      <section
+        className=""
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xl-3"
+          >
+            dasdas
+          </div>
+          <div
+            className="col-xl-3"
+          />
+          <div
+            className="col-xl-3"
+          />
+          <div
+            className="col-xl-3"
+          />
+        </div>
+      </section>
+      <section
+        className=""
+      >
+        <div
+          className="col-xl-3"
+        />
+        <div
+          className="col-xl-3"
+        />
+        <div
+          className="col-xl-3"
+        />
+        <div
+          className="col-xl-3"
+        />
+      </section>
+    </div>
+  </footer>
 </div>
 `;

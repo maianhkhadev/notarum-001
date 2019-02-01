@@ -123,5 +123,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "prerender-spa-plugin": "^3.4.0"
   }
 }

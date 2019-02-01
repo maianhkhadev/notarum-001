@@ -17,6 +17,49 @@ exports[`renders correctly 1`] = `
   />
   <footer
     className="layout-footer"
-  />
+  >
+    <div
+      className="container"
+    >
+      <section
+        className=""
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xl-3"
+          >
+            dasdas
+          </div>
+          <div
+            className="col-xl-3"
+          />
+          <div
+            className="col-xl-3"
+          />
+          <div
+            className="col-xl-3"
+          />
+        </div>
+      </section>
+      <section
+        className=""
+      >
+        <div
+          className="col-xl-3"
+        />
+        <div
+          className="col-xl-3"
+        />
+        <div
+          className="col-xl-3"
+        />
+        <div
+          className="col-xl-3"
+        />
+      </section>
+    </div>
+  </footer>
 </div>
 `;
