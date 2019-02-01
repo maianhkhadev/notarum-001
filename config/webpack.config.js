@@ -505,10 +505,10 @@ module.exports = function(webpackEnv) {
         renderer: new Renderer({
           // Other puppeteer options.
           // (See here: https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#puppeteerlaunchoptions)
-          headless: true, // Display the browser window when rendering. Useful for debugging.
+          headless: false, // Display the browser window when rendering. Useful for debugging.
 
           // important for running on various server where root user is present
-          args: ['-no-sandbox', '-disable-setuid-sandbox'],
+          args: ['--no-sandbox', '--disable-setuid-sandbox'],
         })
       }),
       // Inlines the webpack runtime script. This script is too small to warrant
