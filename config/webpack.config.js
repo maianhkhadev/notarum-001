@@ -503,10 +503,6 @@ module.exports = function(webpackEnv) {
         routes: ['/'],
         staticDir: path.join(__dirname, '../build'),
         renderer: new Renderer({
-          // Other puppeteer options.
-          // (See here: https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#puppeteerlaunchoptions)
-          headless: false, // Display the browser window when rendering. Useful for debugging.
-
           // important for running on various server where root user is present
           args: ['--no-sandbox', '--disable-setuid-sandbox'],
         })
