@@ -1,0 +1,56 @@
+.layout-default {
+
+  .layout-footer {
+    background-color: #222222;
+    padding-top: 2.5rem;
+
+    .section-01 {
+      border-bottom: 1px solid #333;
+      padding-bottom: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .section-02 {
+      padding-bottom: 2.5rem;
+
+      .address {
+        color: #dddddd;
+        font-size: 0.875rem;
+      }
+    }
+
+    .footer-title {
+      color: #ffffff;
+      font-size: 1.125rem;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    .footer-nav {
+      list-style-type: none;
+      padding-left: 0;
+
+      .footer-item {
+        padding-top: 0.125rem;
+        padding-bottom: 0.125rem;
+
+        .footer-link {
+          color: #dddddd;
+          font-size: 0.875rem;
+          text-transform: capitalize;
+
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .copyright {
+      color: #ffffff;
+      background-color: #111111;
+      text-align: center;
+      padding: 0.875rem 0;
+    }
+  }
+}
