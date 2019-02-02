@@ -21,13 +21,13 @@ export default function (props) {
 
                 <ul className="footer-nav">
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Lorem Ipsum</a>
+                    <a className="footer-link" href="index.html">Lorem Ipsum</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Lorem Ipsum</a>
+                    <a className="footer-link" href="index.html">Lorem Ipsum</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Lorem Ipsum</a>
+                    <a className="footer-link" href="index.html">Lorem Ipsum</a>
                   </li>
                 </ul>
               </div>
@@ -36,16 +36,16 @@ export default function (props) {
 
                 <ul className="footer-nav">
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Docs</a>
+                    <a className="footer-link" href="index.html">Docs</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Guides</a>
+                    <a className="footer-link" href="index.html">Guides</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Release Notes</a>
+                    <a className="footer-link" href="index.html">Release Notes</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Blogs</a>
+                    <a className="footer-link" href="index.html">Blogs</a>
                   </li>
                 </ul>
               </div>
@@ -54,16 +54,16 @@ export default function (props) {
 
                 <ul className="footer-nav">
                   <li className="footer-item">
-                    <a className="footer-link" href="#">About Us</a>
+                    <a className="footer-link" href="index.html">About Us</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Contact Us</a>
+                    <a className="footer-link" href="index.html">Contact Us</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Career</a>
+                    <a className="footer-link" href="index.html">Career</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Customers</a>
+                    <a className="footer-link" href="index.html">Customers</a>
                   </li>
                 </ul>
               </div>
@@ -72,13 +72,13 @@ export default function (props) {
 
                 <ul className="footer-nav">
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Support</a>
+                    <a className="footer-link" href="index.html">Support</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Terms</a>
+                    <a className="footer-link" href="index.html">Terms</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Privacy Policy</a>
+                    <a className="footer-link" href="index.html">Privacy Policy</a>
                   </li>
                 </ul>
               </div>
@@ -92,13 +92,13 @@ export default function (props) {
 
                 <ul className="footer-nav">
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Facebook</a>
+                    <a className="footer-link" href="index.html">Facebook</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Twitter</a>
+                    <a className="footer-link" href="index.html">Twitter</a>
                   </li>
                   <li className="footer-item">
-                    <a className="footer-link" href="#">Linkedin</a>
+                    <a className="footer-link" href="index.html">Linkedin</a>
                   </li>
                 </ul>
               </div>

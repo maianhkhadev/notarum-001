@@ -545,7 +545,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Lorem Ipsum
                 </a>
@@ -555,7 +555,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Lorem Ipsum
                 </a>
@@ -565,7 +565,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Lorem Ipsum
                 </a>
@@ -588,7 +588,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Docs
                 </a>
@@ -598,7 +598,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Guides
                 </a>
@@ -608,7 +608,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Release Notes
                 </a>
@@ -618,7 +618,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Blogs
                 </a>
@@ -641,7 +641,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   About Us
                 </a>
@@ -651,7 +651,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Contact Us
                 </a>
@@ -661,7 +661,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Career
                 </a>
@@ -671,7 +671,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Customers
                 </a>
@@ -694,7 +694,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Support
                 </a>
@@ -704,7 +704,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Terms
                 </a>
@@ -714,7 +714,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Privacy Policy
                 </a>
@@ -745,7 +745,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Facebook
                 </a>
@@ -755,7 +755,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Twitter
                 </a>
@@ -765,7 +765,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-link"
-                  href="#"
+                  href="index.html"
                 >
                   Linkedin
                 </a>
