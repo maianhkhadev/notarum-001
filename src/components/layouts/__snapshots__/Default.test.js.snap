@@ -308,7 +308,7 @@ exports[`renders correctly 1`] = `
       className="copyright"
     >
       <span>
-        Copyright 2018 Notarum
+        Copyright 2019 Notarum
       </span>
       <span>
         All Rights Reserved

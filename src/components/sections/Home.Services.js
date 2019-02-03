@@ -5,31 +5,36 @@ export default function (props) {
     <section className="section-services">
       <div className="container">
         <div className="row">
-          <div className="col-xl-6 ml-auto">
+          <div className="col-xl-6">
+            <img className="thumbnail" src={ require('@/assets/images/cm-laptop-720x425.png') } alt="" />
+          </div>
+          <div className="col-xl-6">
             <h2 className="section-title">Awesome Design & Great Functionalities</h2>
             <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.</p>
 
             <div className="media">
               <img className="mr-3" src={ require('@/assets/images/icon-service-01.png') } alt="" />
               <div className="media-body">
-                <h5 className="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                <h5 className="mt-0">Efficient</h5>
+                Our customisable workflow means faster onboarding and monitoring, and easy collaboration between teams
+              </div>
+            </div>
+
+            <div className="media">
+              <figure className="">
+                <img className="" src={ require('@/assets/images/icon-service-01.png') } alt="" />
+              </figure>
+              <div className="media-body">
+                <h5 className="title">Effective</h5>
+                Rely on primary source data for continuous monitoring so you know exactly who you are doing business with
               </div>
             </div>
 
             <div className="media">
               <img className="mr-3" src={ require('@/assets/images/icon-service-01.png') } alt="" />
               <div className="media-body">
-                <h5 className="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-              </div>
-            </div>
-
-            <div className="media">
-              <img className="mr-3" src={ require('@/assets/images/icon-service-01.png') } alt="" />
-              <div className="media-body">
-                <h5 className="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                <h5 className="mt-0">Compliant</h5>
+                Smart screening and reports ensure your organisation adopts a risk-based approach to customer due diligence
               </div>
             </div>
           </div>

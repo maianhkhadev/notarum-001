@@ -115,20 +115,77 @@ export default function (props) {
 
           <SectionServices />
 
-          <section className="section-explore">
+          <section className="section-mission">
             <div className="container">
               <div className="row">
-                <div className="col-xl-4">
+                <div className="col-xl-8 mx-auto">
+                  <p>Our AI platform and workflow tools automate ~90% of the current process reducing cost and risk, a rare win:win</p>
+                  <p>We aim to service a global web of millions of interconnected companies, whose due diligence needs are entirely automated, suspect characters are flagged and removed, and companies’ regulatory risk eliminated.</p>
                 </div>
-                <div className="col-xl-4">
+              </div>
+            </div>
+          </section>
+
+          <section className="section-tutorial">
+            <h3 className="section-title">Easy to get started, Four Step Process</h3>
+
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-3 col-md-6">
+                  <div className="step">
+                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <h4 className="title"><strong>01.</strong> Access Your Dashboard</h4>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
+                  </div>
                 </div>
-                <div className="col-xl-4">
+                <div className="col-xl-3 col-md-6">
+                  <div className="step">
+                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <h4 className="title"><strong>02.</strong> Lorem ipsum dolor</h4>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
+                  </div>
+                </div>
+                <div className="col-xl-3 col-md-6">
+                  <div className="step">
+                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <h4 className="title"><strong>03.</strong> Lorem ipsum dolor</h4>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
+                  </div>
+                </div>
+                <div className="col-xl-3 col-md-6">
+                  <div className="step">
+                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <h4 className="title"><strong>04.</strong> Lorem ipsum dolor</h4>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
 
           <section className="section-team">
+            <h3 className="section-title">Meet our team</h3>
+
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-5 mx-auto">
+                  <div className="member">
+                    <img className="avatar" src={ require('@/assets/images/member1.png') } alt=""/>
+                    <h4 className="name">Angela</h4>
+                    <div className="position">Co-Founder</div>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
+                  </div>
+                </div>
+                <div className="col-xl-5 mx-auto">
+                  <div className="member">
+                    <img className="avatar" src={ require('@/assets/images/member1.png') } alt=""/>
+                    <h4 className="name">Jamie Soo</h4>
+                    <div className="position">Co-Founder</div>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
 
           <SectionContact />

@@ -2,6 +2,16 @@
 
   section {
     border-bottom: 1px solid #dddddd;
+
+    h2.section-title {
+      font-size: 2.625rem;
+      font-family: $title-font;
+    }
+
+    h3.section-title {
+      font-size: 1.875rem;
+      font-family: $title-font;
+    }
   }
 
   .section-hero {
@@ -9,7 +19,6 @@
 
     .section-title {
       color: #ffffff;
-      font-size: 2.625rem;
     }
 
     .section-lead {
@@ -25,32 +34,129 @@
 
   .section-feature-01, .section-feature-03 {
     background-color: #ffffff;
-    padding: 6rem 0;
+    padding: 5rem 0;
   }
 
   .section-feature-02 {
     background-color: #eeeeee;
-    padding: 6rem 0;
+    padding: 5rem 0;
   }
 
   .section-services {
     background-color: $color-primary;
-    padding: 6rem 0;
+    padding: 5rem 0;
 
-    .section-header {
+    .section-title {
+      color: #ffffff;
+    }
+
+    .thumbnail {
+      width: calc(100% + 12rem);
+      margin-left: -12rem;
+    }
+
+    .media {
+      margin-bottom: 1.25rem;
+
+      figure {
+        background-color: #ffffff;
+        border-radius: 50%;
+        box-shadow: 0px 5px 15px 0px rgba(71, 71, 71, 0.2);
+        padding: 0.75rem;
+        margin-right: 0.5rem;
+
+        img {
+          width: 2.5rem;
+          height: auto;
+        }
+      }
+
+      .title {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .section-mission {
+    background-color: #ffffff;
+    padding: 5rem 0;
+  }
+
+  .section-tutorial {
+    background-color: #eeeeee;
+    padding: 5rem 0;
+
+    .section-title {
       text-align: center;
-      margin-bottom: 4rem;
+      margin-bottom: 2.5rem;
+    }
 
-      .section-title {
-        color: #ffffff;
-        font-size: 2.625rem;
+    .step {
+      text-align: center;
+      padding: 1.25rem;
+
+      .icon {
+        width: 10rem;
+        height: auto;
+        margin-bottom: 0.5rem;
+      }
+
+      .title {
+        color: #333333;
+        font-size: 1.25rem;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+
+        strong {
+          color: #2E406F;
+        }
+      }
+
+      .text {
+        color: #72808e;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .section-team {
+    background-color: #ffffff;
+    padding: 5rem 0;
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .member {
+      text-align: center;
+      box-shadow: 0.25rem 0.5rem 0.75rem 0px rgba(#cccccc, 0.3);
+      padding: 2rem;
+
+      .avatar {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;
+      }
+
+      .name {
+        color: #2a3032;
+        font-size: 1.25rem;
+        margin-bottom: 0;
+      }
+
+      .position {
+        color: #899295;
+        font-size: 0.875rem;
       }
     }
   }
 
   .section-contact {
     background-color: $color-primary;
-    padding: 6rem 0;
+    border-bottom: none;
+    padding: 5rem 0;
 
     .section-header {
       text-align: center;
@@ -58,7 +164,6 @@
 
       .section-title {
         color: #ffffff;
-        font-size: 2.625rem;
       }
     }
   }

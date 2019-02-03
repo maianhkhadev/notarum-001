@@ -316,7 +316,16 @@ exports[`renders correctly 1`] = `
               className="row"
             >
               <div
-                className="col-xl-6 ml-auto"
+                className="col-xl-6"
+              >
+                <img
+                  alt=""
+                  className="thumbnail"
+                  src="cm-laptop-720x425.png"
+                />
+              </div>
+              <div
+                className="col-xl-6"
               >
                 <h2
                   className="section-title"
@@ -342,9 +351,32 @@ exports[`renders correctly 1`] = `
                     <h5
                       className="mt-0"
                     >
-                      Media heading
+                      Efficient
                     </h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    Our customisable workflow means faster onboarding and monitoring, and easy collaboration between teams
+                  </div>
+                </div>
+                <div
+                  className="media"
+                >
+                  <figure
+                    className=""
+                  >
+                    <img
+                      alt=""
+                      className=""
+                      src="icon-service-01.png"
+                    />
+                  </figure>
+                  <div
+                    className="media-body"
+                  >
+                    <h5
+                      className="title"
+                    >
+                      Effective
+                    </h5>
+                    Rely on primary source data for continuous monitoring so you know exactly who you are doing business with
                   </div>
                 </div>
                 <div
@@ -361,28 +393,9 @@ exports[`renders correctly 1`] = `
                     <h5
                       className="mt-0"
                     >
-                      Media heading
+                      Compliant
                     </h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                  </div>
-                </div>
-                <div
-                  className="media"
-                >
-                  <img
-                    alt=""
-                    className="mr-3"
-                    src="icon-service-01.png"
-                  />
-                  <div
-                    className="media-body"
-                  >
-                    <h5
-                      className="mt-0"
-                    >
-                      Media heading
-                    </h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    Smart screening and reports ensure your organisation adopts a risk-based approach to customer due diligence
                   </div>
                 </div>
               </div>
@@ -390,7 +403,7 @@ exports[`renders correctly 1`] = `
           </div>
         </section>
         <section
-          className="section-explore"
+          className="section-mission"
         >
           <div
             className="container"
@@ -399,20 +412,212 @@ exports[`renders correctly 1`] = `
               className="row"
             >
               <div
-                className="col-xl-4"
-              />
+                className="col-xl-8 mx-auto"
+              >
+                <p>
+                  Our AI platform and workflow tools automate ~90% of the current process reducing cost and risk, a rare win:win
+                </p>
+                <p>
+                  We aim to service a global web of millions of interconnected companies, whose due diligence needs are entirely automated, suspect characters are flagged and removed, and companies’ regulatory risk eliminated.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="section-tutorial"
+        >
+          <h3
+            className="section-title"
+          >
+            Easy to get started, Four Step Process
+          </h3>
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
               <div
-                className="col-xl-4"
-              />
+                className="col-xl-3 col-md-6"
+              >
+                <div
+                  className="step"
+                >
+                  <img
+                    alt=""
+                    className="icon"
+                    src="login.png"
+                  />
+                  <h4
+                    className="title"
+                  >
+                    <strong>
+                      01.
+                    </strong>
+                     Access Your Dashboard
+                  </h4>
+                  <p
+                    className="text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.
+                  </p>
+                </div>
+              </div>
               <div
-                className="col-xl-4"
-              />
+                className="col-xl-3 col-md-6"
+              >
+                <div
+                  className="step"
+                >
+                  <img
+                    alt=""
+                    className="icon"
+                    src="login.png"
+                  />
+                  <h4
+                    className="title"
+                  >
+                    <strong>
+                      02.
+                    </strong>
+                     Lorem ipsum dolor
+                  </h4>
+                  <p
+                    className="text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-xl-3 col-md-6"
+              >
+                <div
+                  className="step"
+                >
+                  <img
+                    alt=""
+                    className="icon"
+                    src="login.png"
+                  />
+                  <h4
+                    className="title"
+                  >
+                    <strong>
+                      03.
+                    </strong>
+                     Lorem ipsum dolor
+                  </h4>
+                  <p
+                    className="text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-xl-3 col-md-6"
+              >
+                <div
+                  className="step"
+                >
+                  <img
+                    alt=""
+                    className="icon"
+                    src="login.png"
+                  />
+                  <h4
+                    className="title"
+                  >
+                    <strong>
+                      04.
+                    </strong>
+                     Lorem ipsum dolor
+                  </h4>
+                  <p
+                    className="text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
         <section
           className="section-team"
-        />
+        >
+          <h3
+            className="section-title"
+          >
+            Meet our team
+          </h3>
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-xl-5 mx-auto"
+              >
+                <div
+                  className="member"
+                >
+                  <img
+                    alt=""
+                    className="avatar"
+                    src="member1.png"
+                  />
+                  <h4
+                    className="name"
+                  >
+                    Angela
+                  </h4>
+                  <div
+                    className="position"
+                  >
+                    Co-Founder
+                  </div>
+                  <p
+                    className="text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-xl-5 mx-auto"
+              >
+                <div
+                  className="member"
+                >
+                  <img
+                    alt=""
+                    className="avatar"
+                    src="member1.png"
+                  />
+                  <h4
+                    className="name"
+                  >
+                    Jamie Soo
+                  </h4>
+                  <div
+                    className="position"
+                  >
+                    Co-Founder
+                  </div>
+                  <p
+                    className="text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section
           className="section-contact"
         >
@@ -450,6 +655,18 @@ exports[`renders correctly 1`] = `
                   <div
                     className="form-group"
                   >
+                    <label>
+                      Name
+                    </label>
+                    <input
+                      className="form-control"
+                      placeholder="Ex: Mai Anh Kha"
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    className="form-group"
+                  >
                     <label
                       htmlFor="exampleInputEmail1"
                     >
@@ -462,12 +679,18 @@ exports[`renders correctly 1`] = `
                       placeholder="Enter email"
                       type="email"
                     />
-                    <small
-                      className="form-text text-muted"
-                      id="emailHelp"
-                    >
-                      We'll never share your email with anyone else.
-                    </small>
+                  </div>
+                  <div
+                    className="form-group"
+                  >
+                    <label>
+                      Subject
+                    </label>
+                    <input
+                      className="form-control"
+                      placeholder="Ex: Contact"
+                      type="text"
+                    />
                   </div>
                   <div
                     className="form-group"
@@ -475,30 +698,11 @@ exports[`renders correctly 1`] = `
                     <label
                       htmlFor="exampleInputPassword1"
                     >
-                      Password
+                      Message
                     </label>
-                    <input
-                      autoComplete="true"
+                    <textarea
                       className="form-control"
-                      id="exampleInputPassword1"
-                      placeholder="Password"
-                      type="password"
                     />
-                  </div>
-                  <div
-                    className="form-group form-check"
-                  >
-                    <input
-                      className="form-check-input"
-                      id="exampleCheck1"
-                      type="checkbox"
-                    />
-                    <label
-                      className="form-check-label"
-                      htmlFor="exampleCheck1"
-                    >
-                      Check me out
-                    </label>
                   </div>
                   <button
                     className="btn btn-primary"
@@ -810,7 +1014,7 @@ exports[`renders correctly 1`] = `
       className="copyright"
     >
       <span>
-        Copyright 2018 Notarum
+        Copyright 2019 Notarum
       </span>
       <span>
         All Rights Reserved

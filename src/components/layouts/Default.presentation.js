@@ -117,7 +117,7 @@ export default function (props) {
         </div>
 
         <div className="copyright">
-          <span>Copyright 2018 Notarum</span>
+          <span>Copyright 2019 Notarum</span>
           <span>All Rights Reserved</span>
         </div>
       </footer>
