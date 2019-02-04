@@ -7,7 +7,7 @@ export default function (props) {
 
       <header className="layout-header">
         <div className="container">
-          <a className="navbar-brand" href="#">Notarum</a>
+          <a className="navbar-brand" href="index.html">Notarum</a>
         </div>
       </header>
 
