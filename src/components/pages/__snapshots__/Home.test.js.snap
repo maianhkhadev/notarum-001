@@ -11,7 +11,18 @@ exports[`renders correctly 1`] = `
   </h1>
   <header
     className="layout-header"
-  />
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="navbar-brand"
+        href="#"
+      >
+        Notarum
+      </a>
+    </div>
+  </header>
   <main
     className="layout-main"
   >
@@ -30,26 +41,30 @@ exports[`renders correctly 1`] = `
           <div
             className="container"
           >
-            <h2
-              className="section-title"
+            <div
+              className="section-content"
             >
-              Automating corporate due diligence
-            </h2>
-            <p
-              className="section-lead"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.
-            </p>
-            <button
-              className="btn btn-outline-white"
-            >
-              Learn More
-            </button>
-            <button
-              className="btn btn-dark"
-            >
-              Purchase Now
-            </button>
+              <h2
+                className="section-title"
+              >
+                Automating corporate due diligence
+              </h2>
+              <p
+                className="text"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.
+              </p>
+              <button
+                className="btn btn-outline-white"
+              >
+                Learn More
+              </button>
+              <button
+                className="btn btn-dark"
+              >
+                Purchase Now
+              </button>
+            </div>
             <img
               alt=""
               className="w-100"
@@ -194,6 +209,15 @@ exports[`renders correctly 1`] = `
               className="row"
             >
               <div
+                className="col-xl-5"
+              >
+                <img
+                  alt=""
+                  className="w-100"
+                  src="features2.png"
+                />
+              </div>
+              <div
                 className="col-xl-7"
               >
                 <h3
@@ -232,15 +256,6 @@ exports[`renders correctly 1`] = `
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div
-                className="col-xl-5"
-              >
-                <img
-                  alt=""
-                  className="w-100"
-                  src="features2.png"
-                />
               </div>
             </div>
           </div>
@@ -330,7 +345,7 @@ exports[`renders correctly 1`] = `
                 <h2
                   className="section-title"
                 >
-                  Awesome Design & Great Functionalities
+                  Lorem ipsum dolor sit amet consectetur
                 </h2>
                 <p
                   className="text"
@@ -340,11 +355,15 @@ exports[`renders correctly 1`] = `
                 <div
                   className="media"
                 >
-                  <img
-                    alt=""
-                    className="mr-3"
-                    src="icon-service-01.png"
-                  />
+                  <figure
+                    className=""
+                  >
+                    <img
+                      alt=""
+                      className=""
+                      src="icon-service-01.png"
+                    />
+                  </figure>
                   <div
                     className="media-body"
                   >
@@ -382,11 +401,15 @@ exports[`renders correctly 1`] = `
                 <div
                   className="media"
                 >
-                  <img
-                    alt=""
-                    className="mr-3"
-                    src="icon-service-01.png"
-                  />
+                  <figure
+                    className=""
+                  >
+                    <img
+                      alt=""
+                      className=""
+                      src="icon-service-01.png"
+                    />
+                  </figure>
                   <div
                     className="media-body"
                   >
@@ -412,12 +435,16 @@ exports[`renders correctly 1`] = `
               className="row"
             >
               <div
-                className="col-xl-8 mx-auto"
+                className="col-xl-8 mx-auto text-center"
               >
-                <p>
+                <h4
+                  className="section-title"
+                >
                   Our AI platform and workflow tools automate ~90% of the current process reducing cost and risk, a rare win:win
-                </p>
-                <p>
+                </h4>
+                <p
+                  className="text"
+                >
                   We aim to service a global web of millions of interconnected companies, whose due diligence needs are entirely automated, suspect characters are flagged and removed, and companies’ regulatory risk eliminated.
                 </p>
               </div>
@@ -622,96 +649,89 @@ exports[`renders correctly 1`] = `
           className="section-contact"
         >
           <div
-            className="section-header"
-          >
-            <h3
-              className="section-title"
-            >
-              Contact Us
-            </h3>
-          </div>
-          <div
-            className="section-content"
+            className="container"
           >
             <div
-              className="container"
+              className="row"
             >
               <div
-                className="row"
+                className="col-xl-6"
               >
-                <div
-                  className="col-xl-6"
+                <h3
+                  className="section-title"
                 >
-                  <h4>
-                    We'd love to hear from you.
-                  </h4>
-                  <p>
-                    Let us know if you are interested to participate in our beta program. We will then reach out to understand more about your business and requirements.
-                  </p>
-                </div>
-                <form
-                  className="col-xl-6"
-                >
-                  <div
-                    className="form-group"
-                  >
-                    <label>
-                      Name
-                    </label>
-                    <input
-                      className="form-control"
-                      placeholder="Ex: Mai Anh Kha"
-                      type="text"
-                    />
-                  </div>
-                  <div
-                    className="form-group"
-                  >
-                    <label
-                      htmlFor="exampleInputEmail1"
-                    >
-                      Email address
-                    </label>
-                    <input
-                      aria-describedby="emailHelp"
-                      className="form-control"
-                      id="exampleInputEmail1"
-                      placeholder="Enter email"
-                      type="email"
-                    />
-                  </div>
-                  <div
-                    className="form-group"
-                  >
-                    <label>
-                      Subject
-                    </label>
-                    <input
-                      className="form-control"
-                      placeholder="Ex: Contact"
-                      type="text"
-                    />
-                  </div>
-                  <div
-                    className="form-group"
-                  >
-                    <label
-                      htmlFor="exampleInputPassword1"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      className="form-control"
-                    />
-                  </div>
-                  <button
-                    className="btn btn-primary"
-                    type="submit"
-                  >
-                    Submit
-                  </button>
-                </form>
+                  We'd love to hear from you.
+                </h3>
+                <p>
+                  Let us know if you are interested to participate in our beta program. We will then reach out to understand more about your business and requirements.
+                </p>
               </div>
+              <form
+                className="col-xl-6"
+              >
+                <h3
+                  className="section-title"
+                >
+                  Contact Us
+                </h3>
+                <div
+                  className="form-group"
+                >
+                  <label>
+                    Name
+                  </label>
+                  <input
+                    className="form-control"
+                    placeholder="Ex: Mai Anh Kha"
+                    type="text"
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="exampleInputEmail1"
+                  >
+                    Email address
+                  </label>
+                  <input
+                    aria-describedby="emailHelp"
+                    className="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Enter email"
+                    type="email"
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label>
+                    Subject
+                  </label>
+                  <input
+                    className="form-control"
+                    placeholder="Ex: Contact"
+                    type="text"
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label>
+                    Message
+                  </label>
+                  <textarea
+                    className="form-control"
+                    rows="3"
+                  />
+                </div>
+                <button
+                  className="btn btn-primary btn-block"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
             </div>
           </div>
         </section>

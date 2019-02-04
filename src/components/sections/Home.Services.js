@@ -9,11 +9,13 @@ export default function (props) {
             <img className="thumbnail" src={ require('@/assets/images/cm-laptop-720x425.png') } alt="" />
           </div>
           <div className="col-xl-6">
-            <h2 className="section-title">Awesome Design & Great Functionalities</h2>
+            <h2 className="section-title">Lorem ipsum dolor sit amet consectetur</h2>
             <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.</p>
 
             <div className="media">
-              <img className="mr-3" src={ require('@/assets/images/icon-service-01.png') } alt="" />
+              <figure className="">
+                <img className="" src={ require('@/assets/images/icon-service-01.png') } alt="" />
+              </figure>
               <div className="media-body">
                 <h5 className="mt-0">Efficient</h5>
                 Our customisable workflow means faster onboarding and monitoring, and easy collaboration between teams
@@ -31,7 +33,9 @@ export default function (props) {
             </div>
 
             <div className="media">
-              <img className="mr-3" src={ require('@/assets/images/icon-service-01.png') } alt="" />
+              <figure className="">
+                <img className="" src={ require('@/assets/images/icon-service-01.png') } alt="" />
+              </figure>
               <div className="media-body">
                 <h5 className="mt-0">Compliant</h5>
                 Smart screening and reports ensure your organisation adopts a risk-based approach to customer due diligence

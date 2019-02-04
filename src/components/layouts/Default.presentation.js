@@ -6,6 +6,9 @@ export default function (props) {
       <h1 className="hidden">Notarum</h1>
 
       <header className="layout-header">
+        <div className="container">
+          <a className="navbar-brand" href="#">Notarum</a>
+        </div>
       </header>
 
       <main className="layout-main">

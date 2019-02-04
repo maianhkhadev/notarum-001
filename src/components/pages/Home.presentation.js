@@ -15,10 +15,12 @@ export default function (props) {
         <div className="page-content">
           <section className="section-hero">
             <div className="container">
-              <h2 className="section-title">Automating corporate due diligence</h2>
-              <p className="section-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.</p>
-              <button className="btn btn-outline-white">Learn More</button>
-              <button className="btn btn-dark">Purchase Now</button>
+              <div className="section-content">
+                <h2 className="section-title">Automating corporate due diligence</h2>
+                <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.</p>
+                <button className="btn btn-outline-white">Learn More</button>
+                <button className="btn btn-dark">Purchase Now</button>
+              </div>
 
               <img className="w-100" src={ require('@/assets/images/web-app.png') } alt=""/>
             </div>
@@ -58,6 +60,9 @@ export default function (props) {
           <section className="section-feature-02">
             <div className="container">
               <div className="row">
+                <div className="col-xl-5">
+                  <img className="w-100" src={ require('@/assets/images/features2.png') } alt=""/>
+                </div>
                 <div className="col-xl-7">
                   <h3 className="section-title">Exploring the Possibilities in Mobility Networks</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus. Aliquam maximus, ligula nec commodo maximus, felis metus sagittis ligula, lobortis consequat ante risus ut elit.</p>
@@ -76,9 +81,6 @@ export default function (props) {
                       </ul>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-5">
-                  <img className="w-100" src={ require('@/assets/images/features2.png') } alt=""/>
                 </div>
               </div>
             </div>
@@ -118,9 +120,9 @@ export default function (props) {
           <section className="section-mission">
             <div className="container">
               <div className="row">
-                <div className="col-xl-8 mx-auto">
-                  <p>Our AI platform and workflow tools automate ~90% of the current process reducing cost and risk, a rare win:win</p>
-                  <p>We aim to service a global web of millions of interconnected companies, whose due diligence needs are entirely automated, suspect characters are flagged and removed, and companies’ regulatory risk eliminated.</p>
+                <div className="col-xl-8 mx-auto text-center">
+                  <h4 className="section-title">Our AI platform and workflow tools automate ~90% of the current process reducing cost and risk, a rare win:win</h4>
+                  <p className="text">We aim to service a global web of millions of interconnected companies, whose due diligence needs are entirely automated, suspect characters are flagged and removed, and companies’ regulatory risk eliminated.</p>
                 </div>
               </div>
             </div>

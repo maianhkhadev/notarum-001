@@ -16,14 +16,31 @@
 
   .section-hero {
     background-color: $color-primary;
+    padding-top: 8rem;
 
-    .section-title {
-      color: #ffffff;
-    }
+    .section-content {
+      text-align: center;
+      margin-bottom: 2.5rem;
 
-    .section-lead {
-      color: #ffffff;
-      font-size: 1rem;
+      .section-title {
+        color: #ffffff;
+      }
+
+      .text {
+        color: #ffffff;
+        font-size: 1rem;
+        margin-bottom: 1.75rem;
+      }
+
+      button {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: unset;
+        padding: 0.75rem 1.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
     }
   }
 
@@ -63,7 +80,7 @@
         border-radius: 50%;
         box-shadow: 0px 5px 15px 0px rgba(71, 71, 71, 0.2);
         padding: 0.75rem;
-        margin-right: 0.5rem;
+        margin-right: 1rem;
 
         img {
           width: 2.5rem;
@@ -80,6 +97,18 @@
   .section-mission {
     background-color: #ffffff;
     padding: 5rem 0;
+
+    .section-title {
+      color: #333333;
+      font-size: 1.25rem;
+      font-family: $title-font;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .text {
+      color: #72808e;
+    }
   }
 
   .section-tutorial {
@@ -154,16 +183,28 @@
   }
 
   .section-contact {
+    color: #ffffff;
     background-color: $color-primary;
     border-bottom: none;
     padding: 5rem 0;
 
-    .section-header {
-      text-align: center;
-      margin-bottom: 4rem;
+    .section-title {
+      color: #ffffff;
+      font-size: 1.875rem;
+      font-family: $title-font;
+      font-weight: 700;
+    }
 
-      .section-title {
-        color: #ffffff;
+    .form-group {
+
+      .form-control {
+        height: calc(2.75rem + 2px);
+        border-radius: unset;
+        padding: 0.625rem 0.75rem;
+      }
+
+      textarea.form-control {
+        height: auto;
       }
     }
   }
