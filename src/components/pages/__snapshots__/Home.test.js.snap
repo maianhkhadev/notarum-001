@@ -65,11 +65,6 @@ exports[`renders correctly 1`] = `
                 Purchase Now
               </button>
             </div>
-            <img
-              alt=""
-              className="w-100"
-              src="web-app.png"
-            />
           </div>
         </section>
         <section

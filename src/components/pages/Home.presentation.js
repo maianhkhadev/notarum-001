@@ -21,8 +21,6 @@ export default function (props) {
                 <button className="btn btn-outline-white">Learn More</button>
                 <button className="btn btn-dark">Purchase Now</button>
               </div>
-
-              <img className="w-100" src={ require('@/assets/images/web-app.png') } alt=""/>
             </div>
           </section>
 
