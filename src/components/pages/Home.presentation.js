@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '@/components/layouts/Default';
 //Sections
-import SectionPartners from '@/components/sections/Home.Partners';
 import SectionServices from '@/components/sections/Home.Services';
 import SectionContact from '@/components/sections/Home.Contact';
 
@@ -15,16 +14,15 @@ export default function (props) {
         <div className="page-content">
           <section className="section-hero">
             <div className="container">
-              <div className="section-content">
-                <h2 className="section-title">Automating corporate due diligence</h2>
-                <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.</p>
-                <button className="btn btn-outline-white">Learn More</button>
-                <button className="btn btn-dark">Purchase Now</button>
+              <div className="row">
+                <div className="col-xl-6">
+                  <h2 className="section-title">Automating corporate due diligence</h2>
+                  <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.</p>
+                  <button className="btn btn-primary">Learn More</button>
+                </div>
               </div>
             </div>
           </section>
-
-          <SectionPartners />
 
           <section className="section-feature-01">
             <div className="container">
@@ -156,31 +154,6 @@ export default function (props) {
                   <div className="step">
                     <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
                     <h4 className="title"><strong>04.</strong> Lorem ipsum dolor</h4>
-                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="section-team">
-            <h3 className="section-title">Meet our team</h3>
-
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-5 mx-auto">
-                  <div className="member">
-                    <img className="avatar" src={ require('@/assets/images/member1.png') } alt=""/>
-                    <h4 className="name">Angela</h4>
-                    <div className="position">Co-Founder</div>
-                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
-                  </div>
-                </div>
-                <div className="col-xl-5 mx-auto">
-                  <div className="member">
-                    <img className="avatar" src={ require('@/assets/images/member1.png') } alt=""/>
-                    <h4 className="name">Jamie Soo</h4>
-                    <div className="position">Co-Founder</div>
                     <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
                   </div>
                 </div>
