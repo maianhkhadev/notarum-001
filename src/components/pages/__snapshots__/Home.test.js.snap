@@ -4,11 +4,6 @@ exports[`renders correctly 1`] = `
 <div
   className="layout layout-default"
 >
-  <h1
-    className="hidden"
-  >
-    Notarum
-  </h1>
   <header
     className="layout-header"
   >
@@ -47,15 +42,15 @@ exports[`renders correctly 1`] = `
               <div
                 className="col-xl-6"
               >
-                <h2
+                <h1
                   className="section-title"
                 >
                   Automating corporate due diligence
-                </h2>
+                </h1>
                 <p
                   className="text"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.
                 </p>
                 <button
                   className="btn btn-primary"
