@@ -1,6 +1,3 @@
-// FONTS
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Libre+Baskerville:400,700|Source+Sans+Pro:400,700');
-
 @import 'node_modules/bootstrap/scss/functions';
 @import 'node_modules/bootstrap/scss/variables';
 @import 'node_modules/bootstrap/scss/mixins';
@@ -82,18 +79,18 @@ button {
   display: none;
 }
 
-.btn-outline-white {
+.btn-primary {
   color: #ffffff;
-  background-color: transparent;
-  border-color: #ffffff;
+  background-color: #1ea0f2;
+  border-color: #1ea0f2;
 
   &:hover {
-    color: #000000;
-    background-color: #ffffff;
-    border-color: #ffffff;
+    color: #ffffff;
+    background-color: darken(#1ea0f2, 10%);
+    border-color: darken(#1ea0f2, 10%);
   }
 
   &.focus, &:focus {
-    box-shadow: darken(#ffffff, 15%);
+    box-shadow: darken(#1ea0f2, 15%);
   }
 }

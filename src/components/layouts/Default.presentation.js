@@ -3,8 +3,6 @@ import React from 'react';
 export default function (props) {
   return (
     <div className="layout layout-default">
-      <h1 className="hidden">Notarum</h1>
-
       <header className="layout-header">
         <div className="container">
           <a className="navbar-brand" href="index.html">Notarum</a>

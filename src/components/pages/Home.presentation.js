@@ -16,8 +16,8 @@ export default function (props) {
             <div className="container">
               <div className="row">
                 <div className="col-xl-6">
-                  <h2 className="section-title">Automating corporate due diligence</h2>
-                  <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus magna a lacinia tempor.</p>
+                  <h1 className="section-title">Automating corporate due diligence</h1>
+                  <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.</p>
                   <button className="btn btn-primary">Learn More</button>
                 </div>
               </div>
