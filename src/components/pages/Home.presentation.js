@@ -41,7 +41,7 @@ export default function (props) {
                   <div className="feature">
                     <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
                     <div className="feature-content">
-                      <h4 className="feature-title">Faster Processing</h4>
+                      <h4 className="feature-title">Primary Source Verification</h4>
                       <p className="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                   </div>
@@ -50,14 +50,14 @@ export default function (props) {
                   <div className="feature">
                     <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
                     <div className="feature-content">
-                      <h4 className="feature-title">Faster Processing</h4>
+                      <h4 className="feature-title">Smart Screening</h4>
                       <p className="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                   </div>
                   <div className="feature">
                     <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
                     <div className="feature-content">
-                      <h4 className="feature-title">Faster Processing</h4>
+                      <h4 className="feature-title">Collaborative Workflow</h4>
                       <p className="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                   </div>

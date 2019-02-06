@@ -135,7 +135,7 @@ exports[`renders correctly 1`] = `
                     <h4
                       className="feature-title"
                     >
-                      Faster Processing
+                      Primary Source Verification
                     </h4>
                     <p
                       className="feature-text"
@@ -162,7 +162,7 @@ exports[`renders correctly 1`] = `
                     <h4
                       className="feature-title"
                     >
-                      Faster Processing
+                      Smart Screening
                     </h4>
                     <p
                       className="feature-text"
@@ -185,7 +185,7 @@ exports[`renders correctly 1`] = `
                     <h4
                       className="feature-title"
                     >
-                      Faster Processing
+                      Collaborative Workflow
                     </h4>
                     <p
                       className="feature-text"
