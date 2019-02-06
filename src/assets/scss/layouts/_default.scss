@@ -13,6 +13,14 @@
         font-family: $brand-font;
         font-weight: 700;
         line-height: 1;
+
+        span {
+          color: #ffffff;
+          background-color: #1ea0f2;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          margin-right: 0.125rem;
+        }
       }
 
       .btn {

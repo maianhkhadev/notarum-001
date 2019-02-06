@@ -17,7 +17,10 @@ exports[`renders correctly 1`] = `
           className="navbar-brand"
           href="index.html"
         >
-          Notarum
+          <span>
+            N
+          </span>
+          otarum
         </a>
         <form
           className="form-inline"

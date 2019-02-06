@@ -6,7 +6,9 @@ export default function (props) {
       <header className="layout-header">
         <div className="container">
           <nav className="navbar">
-            <a className="navbar-brand" href="index.html">Notarum</a>
+            <a className="navbar-brand" href="index.html">
+              <span>N</span>otarum
+            </a>
             <form className="form-inline">
               <button className="btn btn-outline-dark">Free trial</button>
             </form>
