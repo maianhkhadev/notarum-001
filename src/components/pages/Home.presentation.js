@@ -42,7 +42,7 @@ export default function (props) {
                     <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
                     <div className="feature-content">
                       <h4 className="feature-title">Primary Source Verification</h4>
-                      <p className="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <p className="feature-text">Lorem ipsum dolor sit amet.</p>
                     </div>
                   </div>
                 </div>

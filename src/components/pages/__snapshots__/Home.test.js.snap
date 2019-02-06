@@ -140,7 +140,7 @@ exports[`renders correctly 1`] = `
                     <p
                       className="feature-text"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Lorem ipsum dolor sit amet.
                     </p>
                   </div>
                 </div>
