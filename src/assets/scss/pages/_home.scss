@@ -16,19 +16,25 @@
       font-size: 1.875rem;
       font-family: $title-font;
     }
+
+    .section-title {
+      color: #222222;
+    }
+
+    .text {
+      color: #777777;
+    }
   }
 
   .section-hero {
-    padding: 10rem 0;
+    padding: 14rem 0;
 
       .section-title {
-        color: #333333;
         text-transform: uppercase;
         margin-bottom: 1.25rem;
       }
 
       .text {
-        color: #72808e;
         font-size: 1rem;
         margin-bottom: 1.75rem;
       }
@@ -39,62 +45,114 @@
         text-transform: uppercase;
         border-radius: unset;
         padding: 0.75rem 1.5rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
       }
   }
 
-  .section-feature-01, .section-feature-03 {
+  .section-features {
     background-color: #ffffff;
-    padding: 5rem 0;
-  }
+    padding: 6.5rem 0;
 
-  .section-feature-02 {
-    background-color: #eeeeee;
-    padding: 5rem 0;
+    .section-title {
+      text-transform: capitalize;
+      text-align: right;
+      margin-bottom: 1rem;
+    }
+
+    .text {
+      font-size: 1rem;
+      text-align: right;
+      margin-bottom: 0;
+    }
+
+    .feature {
+      display: flex;
+      flex-direction: row;
+      background-color: #ebf7fe;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+
+      &:not(:last-child) {
+        margin-bottom: 1.875rem;
+      }
+
+      .feature-icon {
+        width: 4.75rem;
+        height: 4.75rem;
+        background-color: #ffffff;
+        border-radius: 0.75rem;
+        padding: 1rem;
+        margin-right: 1.25rem;
+      }
+
+      .feature-title {
+        color: #222222;
+        font-size: 1.125rem;
+        font-family: $title-font;
+      }
+
+      .feature-text {
+        color: #777777;
+        font-size: 1rem;
+        margin-bottom: 0;
+      }
+    }
   }
 
   .section-services {
-    background-color: $color-primary;
-    padding: 5rem 0;
+    background-color: #ffffff;
+    padding: 6.5rem 0;
 
-    .section-title {
-      color: #ffffff;
+    .section-header {
+      margin-bottom: 3.25rem;
+
+      .section-title {
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+      }
     }
 
-    .thumbnail {
-      width: calc(100% + 12rem);
-      margin-left: -12rem;
-    }
+    .service {
+      display: flex;
+      flex-direction: row;
 
-    .media {
-      margin-bottom: 1.25rem;
+      &:not(:last-child) {
+        margin-bottom: 2.75rem;
+      }
 
       figure {
         background-color: #ffffff;
         border-radius: 50%;
-        box-shadow: 0px 5px 15px 0px rgba(71, 71, 71, 0.2);
-        padding: 0.75rem;
-        margin-right: 1rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(71, 71, 71, 0.2);
+        padding: 1.5rem;
+        margin-right: 1.25rem;
+        margin-bottom: 0;
 
         img {
-          width: 2.5rem;
+          width: 2rem;
           height: auto;
         }
       }
 
-      .title {
+      .service-name {
+        color: #222222;
+        font-size: 1.25rem;
+        font-family: $title-font;
+      }
+
+      .service-text {
+        color: #777777;
+        font-size: 1rem;
         margin-bottom: 0;
       }
     }
   }
 
   .section-mission {
-    background-color: #ffffff;
-    padding: 5rem 0;
+    background-color: #ebf7fe;
+    padding: 6.5rem 0;
 
     .section-title {
-      color: #333333;
+      color: #222222;
       font-size: 1.25rem;
       font-family: $title-font;
       font-weight: 700;
@@ -102,17 +160,18 @@
     }
 
     .text {
-      color: #72808e;
+      color: #777777;
+      margin-bottom: 0;
     }
   }
 
   .section-tutorial {
-    background-color: #eeeeee;
-    padding: 5rem 0;
+    background-color: #ffffff;
+    padding: 6.5rem 0;
 
     .section-title {
       text-align: center;
-      margin-bottom: 2.5rem;
+      margin-bottom: 3.25rem;
     }
 
     .step {
@@ -126,7 +185,7 @@
       }
 
       .title {
-        color: #333333;
+        color: #222222;
         font-size: 1.25rem;
         text-transform: capitalize;
         margin-bottom: 1rem;
@@ -137,26 +196,52 @@
       }
 
       .text {
-        color: #72808e;
+        color: #777777;
         margin-bottom: 0;
       }
     }
   }
 
   .section-contact {
-    padding: 5rem 0;
+    padding: 6.5rem 0;
 
-    .section-title {
-      color: #333333;
-      font-size: 1.875rem;
-      font-family: $title-font;
-      font-weight: 700;
+    .call-to-action {
+      position: relative;
+      background-image: url('../images/handshake.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      padding: 10rem 5rem;
+
+      &::before {
+        content: '';
+        background-color: rgba(#000000, 0.25);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .section-title {
+        position: relative;
+        color: #ffffff;
+        margin-bottom: 2rem;
+        z-index: 10;
+      }
+
+      .text {
+        position: relative;
+        color: #ffffff;
+        z-index: 10;
+      }
     }
 
     .form-group {
 
       .form-control {
-        height: calc(2.75rem + 2px);
+        height: calc(3rem + 2px);
         border-radius: unset;
         padding: 0.625rem 0.75rem;
       }
@@ -164,6 +249,13 @@
       textarea.form-control {
         height: auto;
       }
+    }
+
+    button {
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: unset;
+      padding: 0.75rem 1.5rem;
     }
   }
 }

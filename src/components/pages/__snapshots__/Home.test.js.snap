@@ -62,7 +62,7 @@ exports[`renders correctly 1`] = `
           </div>
         </section>
         <section
-          className="section-feature-01"
+          className="section-features"
         >
           <div
             className="container"
@@ -71,175 +71,118 @@ exports[`renders correctly 1`] = `
               className="row"
             >
               <div
-                className="col-xl-7"
+                className="col-xl-4"
               >
-                <h3
-                  className="section-title"
-                >
-                  Connecting the Things As a Most Advanced Solution
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus. Aliquam maximus, ligula nec commodo maximus, felis metus sagittis ligula, lobortis consequat ante risus ut elit.
-                </p>
                 <div
-                  className="row"
+                  className="feature"
                 >
+                  <img
+                    alt=""
+                    className="feature-icon"
+                    src="login.png"
+                  />
                   <div
-                    className="col-xl-6"
+                    className="feature-content"
                   >
-                    <ul>
-                      <li>
-                        Ut lacinia ligula tristique tempus.
-                      </li>
-                      <li>
-                        In ornare nisl vitae pulvinar posuere.
-                      </li>
-                    </ul>
+                    <h4
+                      className="feature-title"
+                    >
+                      Faster Processing
+                    </h4>
+                    <p
+                      className="feature-text"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                   </div>
+                </div>
+                <div
+                  className="feature"
+                >
+                  <img
+                    alt=""
+                    className="feature-icon"
+                    src="login.png"
+                  />
                   <div
-                    className="col-xl-6"
+                    className="feature-content"
                   >
-                    <ul>
-                      <li>
-                        In et orci sit amet leo consequat.
-                      </li>
-                      <li>
-                        Nullam pellentesque arcu vitae congue.
-                      </li>
-                    </ul>
+                    <h4
+                      className="feature-title"
+                    >
+                      Faster Processing
+                    </h4>
+                    <p
+                      className="feature-text"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                   </div>
                 </div>
               </div>
               <div
-                className="col-xl-5"
+                className="col-xl-4"
               >
-                <img
-                  alt=""
-                  className="w-100"
-                  src="features1.png"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          className="section-feature-02"
-        >
-          <div
-            className="container"
-          >
-            <div
-              className="row"
-            >
-              <div
-                className="col-xl-5"
-              >
-                <img
-                  alt=""
-                  className="w-100"
-                  src="features2.png"
-                />
-              </div>
-              <div
-                className="col-xl-7"
-              >
-                <h3
-                  className="section-title"
-                >
-                  Exploring the Possibilities in Mobility Networks
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus. Aliquam maximus, ligula nec commodo maximus, felis metus sagittis ligula, lobortis consequat ante risus ut elit.
-                </p>
                 <div
-                  className="row"
+                  className="feature"
                 >
+                  <img
+                    alt=""
+                    className="feature-icon"
+                    src="login.png"
+                  />
                   <div
-                    className="col-xl-6"
+                    className="feature-content"
                   >
-                    <ul>
-                      <li>
-                        Ut lacinia ligula tristique tempus.
-                      </li>
-                      <li>
-                        In ornare nisl vitae pulvinar posuere.
-                      </li>
-                    </ul>
-                  </div>
-                  <div
-                    className="col-xl-6"
-                  >
-                    <ul>
-                      <li>
-                        In et orci sit amet leo consequat.
-                      </li>
-                      <li>
-                        Nullam pellentesque arcu vitae congue.
-                      </li>
-                    </ul>
+                    <h4
+                      className="feature-title"
+                    >
+                      Faster Processing
+                    </h4>
+                    <p
+                      className="feature-text"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          className="section-feature-03"
-        >
-          <div
-            className="container"
-          >
-            <div
-              className="row"
-            >
-              <div
-                className="col-xl-7"
-              >
-                <h3
-                  className="section-title"
-                >
-                  Best Customer Support and Always Best Solutions in Hand
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus. Aliquam maximus, ligula nec commodo maximus, felis metus sagittis ligula, lobortis consequat ante risus ut elit.
-                </p>
                 <div
-                  className="row"
+                  className="feature"
                 >
+                  <img
+                    alt=""
+                    className="feature-icon"
+                    src="login.png"
+                  />
                   <div
-                    className="col-xl-6"
+                    className="feature-content"
                   >
-                    <ul>
-                      <li>
-                        Ut lacinia ligula tristique tempus.
-                      </li>
-                      <li>
-                        In ornare nisl vitae pulvinar posuere.
-                      </li>
-                    </ul>
-                  </div>
-                  <div
-                    className="col-xl-6"
-                  >
-                    <ul>
-                      <li>
-                        In et orci sit amet leo consequat.
-                      </li>
-                      <li>
-                        Nullam pellentesque arcu vitae congue.
-                      </li>
-                    </ul>
+                    <h4
+                      className="feature-title"
+                    >
+                      Faster Processing
+                    </h4>
+                    <p
+                      className="feature-text"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                   </div>
                 </div>
               </div>
               <div
-                className="col-xl-5"
+                className="col-xl-4 align-self-center"
               >
-                <img
-                  alt=""
-                  className="w-100"
-                  src="features3.png"
-                />
+                <h3
+                  className="section-title"
+                >
+                  Lorem ipsum dolor sit amet consectetur
+                </h3>
+                <p
+                  className="text"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.
+                </p>
               </div>
             </div>
           </div>
@@ -251,97 +194,125 @@ exports[`renders correctly 1`] = `
             className="container"
           >
             <div
-              className="row"
+              className="section-header"
             >
               <div
-                className="col-xl-6"
+                className="row"
               >
-                <img
-                  alt=""
-                  className="thumbnail"
-                  src="cm-laptop-720x425.png"
-                />
+                <div
+                  className="col-xl-8 mx-auto text-center"
+                >
+                  <h2
+                    className="section-title"
+                  >
+                    Lorem ipsum dolor sit amet consectetur
+                  </h2>
+                  <p
+                    className="text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.
+                  </p>
+                </div>
               </div>
+            </div>
+            <div
+              className="section-content"
+            >
               <div
-                className="col-xl-6"
+                className="row"
               >
-                <h2
-                  className="section-title"
-                >
-                  Lorem ipsum dolor sit amet consectetur
-                </h2>
-                <p
-                  className="text"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.
-                </p>
                 <div
-                  className="media"
+                  className="col-xl-6"
                 >
-                  <figure
-                    className=""
-                  >
-                    <img
-                      alt=""
-                      className=""
-                      src="icon-service-01.png"
-                    />
-                  </figure>
-                  <div
-                    className="media-body"
-                  >
-                    <h5
-                      className="mt-0"
-                    >
-                      Efficient
-                    </h5>
-                    Our customisable workflow means faster onboarding and monitoring, and easy collaboration between teams
-                  </div>
+                  <img
+                    alt=""
+                    className="w-100"
+                    src="macbook.png"
+                  />
                 </div>
                 <div
-                  className="media"
+                  className="col-xl-6"
                 >
-                  <figure
-                    className=""
-                  >
-                    <img
-                      alt=""
-                      className=""
-                      src="icon-service-01.png"
-                    />
-                  </figure>
                   <div
-                    className="media-body"
+                    className="service"
                   >
-                    <h5
-                      className="title"
+                    <figure
+                      className=""
                     >
-                      Effective
-                    </h5>
-                    Rely on primary source data for continuous monitoring so you know exactly who you are doing business with
+                      <img
+                        alt=""
+                        className=""
+                        src="test.png"
+                      />
+                    </figure>
+                    <div
+                      className="service-content"
+                    >
+                      <h4
+                        className="service-name"
+                      >
+                        Efficient
+                      </h4>
+                      <p
+                        className="service-text"
+                      >
+                        Our customisable workflow means faster onboarding and monitoring, and easy collaboration between teams
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="media"
-                >
-                  <figure
-                    className=""
-                  >
-                    <img
-                      alt=""
-                      className=""
-                      src="icon-service-01.png"
-                    />
-                  </figure>
                   <div
-                    className="media-body"
+                    className="service"
                   >
-                    <h5
-                      className="mt-0"
+                    <figure
+                      className=""
                     >
-                      Compliant
-                    </h5>
-                    Smart screening and reports ensure your organisation adopts a risk-based approach to customer due diligence
+                      <img
+                        alt=""
+                        className=""
+                        src="test.png"
+                      />
+                    </figure>
+                    <div
+                      className="service-content"
+                    >
+                      <h4
+                        className="service-name"
+                      >
+                        Effective
+                      </h4>
+                      <p
+                        className="service-text"
+                      >
+                        Rely on primary source data for continuous monitoring so you know exactly who you are doing business with
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="service"
+                  >
+                    <figure
+                      className=""
+                    >
+                      <img
+                        alt=""
+                        className=""
+                        src="test.png"
+                      />
+                    </figure>
+                    <div
+                      className="service-content"
+                    >
+                      <h4
+                        className="service-name"
+                      >
+                        Compliant
+                      </h4>
+                      <p
+                        className="service-text"
+                      >
+                        Smart screening and reports ensure your organisation adopts a risk-based approach to customer due diligence
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -377,11 +348,11 @@ exports[`renders correctly 1`] = `
         <section
           className="section-tutorial"
         >
-          <h3
+          <h2
             className="section-title"
           >
             Easy to get started, Four Step Process
-          </h3>
+          </h2>
           <div
             className="container"
           >
@@ -405,7 +376,7 @@ exports[`renders correctly 1`] = `
                     <strong>
                       01.
                     </strong>
-                     Access Your Dashboard
+                     Access Dashboard
                   </h4>
                   <p
                     className="text"
@@ -507,14 +478,18 @@ exports[`renders correctly 1`] = `
               <div
                 className="col-xl-6"
               >
-                <h3
-                  className="section-title"
+                <div
+                  className="call-to-action"
                 >
-                  We'd love to hear from you.
-                </h3>
-                <p>
-                  Let us know if you are interested to participate in our beta program. We will then reach out to understand more about your business and requirements.
-                </p>
+                  <h3
+                    className="section-title"
+                  >
+                    We'd love to hear from you.
+                  </h3>
+                  <p>
+                    Let us know if you are interested to participate in our beta program. We will then reach out to understand more about your business and requirements.
+                  </p>
+                </div>
               </div>
               <form
                 className="col-xl-6"
