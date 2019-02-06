@@ -15,10 +15,13 @@ export default function (props) {
           <section className="section-hero">
             <div className="container">
               <div className="row">
-                <div className="col-xl-6">
+                <div className="col-xl-6 align-self-center">
                   <h1 className="section-title">Automating corporate due diligence</h1>
                   <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.</p>
                   <button className="btn btn-primary">Learn More</button>
+                </div>
+                <div className="col-xl-6">
+                  <img className="w-100" src={ require('@/assets/images/process.png') } alt=""/>
                 </div>
               </div>
             </div>

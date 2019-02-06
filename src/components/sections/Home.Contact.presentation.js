@@ -6,13 +6,11 @@ export default function (props) {
       <div className="container">
         <div className="row">
           <div className="col-xl-6">
-            <div className="call-to-action">
-              <h3 className="section-title">We'd love to hear from you.</h3>
-              <p>Let us know if you are interested to participate in our beta program. We will then reach out to understand more about your business and requirements.</p>
-            </div>
+            <img className="thumbnail" src={ require('@/assets/images/handshake.jpg') } alt=""/>
           </div>
           <form className="col-xl-6">
-            <h3 className="section-title">Contact Us</h3>
+            <h3 className="section-title">We'd love to hear from you.</h3>
+            <p className="text">Let us know if you are interested to participate in our beta program. We will then reach out to understand more about your business and requirements.</p>
 
             <div className="form-group">
               <label>Name</label>

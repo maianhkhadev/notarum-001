@@ -5,7 +5,12 @@ export default function (props) {
     <div className="layout layout-default">
       <header className="layout-header">
         <div className="container">
-          <a className="navbar-brand" href="index.html">Notarum</a>
+          <nav className="navbar">
+            <a className="navbar-brand" href="index.html">Notarum</a>
+            <form className="form-inline">
+              <button className="btn btn-outline-dark">Free trial</button>
+            </form>
+          </nav>
         </div>
       </header>
 
