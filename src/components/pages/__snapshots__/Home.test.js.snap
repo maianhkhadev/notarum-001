@@ -66,7 +66,7 @@ exports[`renders correctly 1`] = `
                 <p
                   className="text"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.
+                  Notarum is a modern due diligence workflow tool designed to reduce busywork—so you can focus on the bigger picture.
                 </p>
                 <button
                   className="btn btn-primary"
@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
                     <p
                       className="feature-text"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Supercharge your processes with goal-centric planning
                     </p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ exports[`renders correctly 1`] = `
                     <p
                       className="feature-text"
                     >
-                      Lorem ipsum dolor sit amet.
+                      Use data with verifiable provenance in your decisioning
                     </p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ exports[`renders correctly 1`] = `
                     <p
                       className="feature-text"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cut through the noise and reduce false positives
                     </p>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ exports[`renders correctly 1`] = `
                     <p
                       className="feature-text"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Keep everyone on the same page with new ways to easily share work and collect feedback
                     </p>
                   </div>
                 </div>
@@ -201,12 +201,12 @@ exports[`renders correctly 1`] = `
                 <h3
                   className="section-title"
                 >
-                  Lorem ipsum dolor sit amet consectetur
+                  Where your due diligence work thrives
                 </h3>
                 <p
                   className="text"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.
+                  Notarum makes performing due diligence analysis and sharing work with team mates easier than ever.
                 </p>
               </div>
             </div>
@@ -230,12 +230,12 @@ exports[`renders correctly 1`] = `
                   <h2
                     className="section-title"
                   >
-                    Lorem ipsum dolor sit amet consectetur
+                    We service all companies across all industries
                   </h2>
                   <p
                     className="text"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.
+                    From fund management to legal and professional services, our platform empowers your compliance teams to make accurate, compliant decisions.
                   </p>
                 </div>
               </div>
@@ -359,12 +359,12 @@ exports[`renders correctly 1`] = `
                 <h4
                   className="section-title"
                 >
-                  Our AI platform and workflow tools automate ~90% of the current process reducing cost and risk, a rare win:win
+                  Our AI platform and workflow collaboration tool automates ~90% of the current process, reducing cost and risk—a rare win-win
                 </h4>
                 <p
                   className="text"
                 >
-                  We aim to service a global web of millions of interconnected companies, whose due diligence needs are entirely automated, suspect characters are flagged and removed, and companies’ regulatory risk eliminated.
+                  We aim to service a global web of millions of interconnected companies whose due diligence needs are entirely automated—flagging and removing suspect characters and eliminating companies’ regulatory risk.
                 </p>
               </div>
             </div>
@@ -376,7 +376,7 @@ exports[`renders correctly 1`] = `
           <h2
             className="section-title"
           >
-            Easy to get started, Four Step Process
+            Get started with our easy four-step process
           </h2>
           <div
             className="container"
@@ -548,29 +548,6 @@ exports[`renders correctly 1`] = `
                     id="exampleInputEmail1"
                     placeholder="Enter email"
                     type="email"
-                  />
-                </div>
-                <div
-                  className="form-group"
-                >
-                  <label>
-                    Subject
-                  </label>
-                  <input
-                    className="form-control"
-                    placeholder="Ex: Contact"
-                    type="text"
-                  />
-                </div>
-                <div
-                  className="form-group"
-                >
-                  <label>
-                    Message
-                  </label>
-                  <textarea
-                    className="form-control"
-                    rows="3"
                   />
                 </div>
                 <button

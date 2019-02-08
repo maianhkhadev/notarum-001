@@ -20,14 +20,6 @@ export default function (props) {
               <label htmlFor="exampleInputEmail1">Email address</label>
               <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
             </div>
-            <div className="form-group">
-              <label>Subject</label>
-              <input type="text" className="form-control" placeholder="Ex: Contact" />
-            </div>
-            <div className="form-group">
-              <label>Message</label>
-              <textarea className="form-control" rows="3"></textarea>
-            </div>
             <button type="submit" className="btn btn-primary btn-block">Submit</button>
           </form>
         </div>
