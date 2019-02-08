@@ -7,8 +7,8 @@ export default function (props) {
         <div className="section-header">
           <div className="row">
             <div className="col-xl-8 mx-auto text-center">
-              <h2 className="section-title">Lorem ipsum dolor sit amet consectetur</h2>
-              <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque efficitur turpis, vitae dictum dolor tristique in. Mauris tristique id urna at cursus.</p>
+              <h2 className="section-title">We service all companies across all industries</h2>
+              <p className="text">From fund management to legal and professional services, our platform empowers your compliance teams to make accurate, compliant decisions.</p>
             </div>
           </div>
         </div>
