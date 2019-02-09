@@ -6,12 +6,11 @@
     left: 0;
     width: 100%;
     height: auto;
-    transition: all 0.25s ease-in;
+    transition: all 0.125s ease-in;
     z-index: 5000;
 
     .navbar {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-      padding: 0.75rem 1rem;
+      padding: 1rem 0;
 
       .navbar-brand {
         color: #1ea0f2;
@@ -41,10 +40,6 @@
     &.scrolled {
       background-color: #ffffff;
       box-shadow: 0 0.5rem 1rem rgba(#000000, 0.05);
-
-      .navbar {
-        border-bottom: none;
-      }
     }
   }
 
