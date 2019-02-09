@@ -27,7 +27,7 @@
   }
 
   .section-hero {
-    padding: 5rem 0;
+    padding: 10rem 0 5rem;
 
     .section-title {
       text-transform: uppercase;
@@ -225,6 +225,11 @@
         height: calc(3rem + 2px);
         border-radius: unset;
         padding: 0.625rem 0.75rem;
+
+        &:focus {
+          border-color: #1ea0f2;
+          box-shadow: unset;
+        }
       }
 
       textarea.form-control {

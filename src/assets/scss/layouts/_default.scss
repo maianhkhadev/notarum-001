@@ -1,6 +1,12 @@
 .layout-default {
 
   .layout-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transition: all 0.25s ease-in;
     z-index: 5000;
 
     .navbar {
@@ -29,6 +35,15 @@
         text-transform: uppercase;
         border-radius: unset;
         padding: 0.5rem 1.5rem;
+      }
+    }
+
+    &.scrolled {
+      background-color: #ffffff;
+      box-shadow: 0 0.5rem 1rem rgba(#000000, 0.05);
+
+      .navbar {
+        border-bottom: none;
       }
     }
   }

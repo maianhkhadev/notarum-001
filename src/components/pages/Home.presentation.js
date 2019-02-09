@@ -83,43 +83,6 @@ export default function (props) {
             </div>
           </section>
 
-          <section className="section-tutorial">
-            <h2 className="section-title">Get started with our easy four-step process</h2>
-
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-3 col-md-6">
-                  <div className="step">
-                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
-                    <h4 className="title"><strong>01.</strong> Access Dashboard</h4>
-                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-md-6">
-                  <div className="step">
-                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
-                    <h4 className="title"><strong>02.</strong> Lorem ipsum dolor</h4>
-                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-md-6">
-                  <div className="step">
-                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
-                    <h4 className="title"><strong>03.</strong> Lorem ipsum dolor</h4>
-                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-md-6">
-                  <div className="step">
-                    <img className="icon" src={ require('@/assets/images/login.png') } alt=""/>
-                    <h4 className="title"><strong>04.</strong> Lorem ipsum dolor</h4>
-                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et aliquet neque, id pretium risus.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
           <SectionContact />
         </div>
 
