@@ -104,7 +104,7 @@ exports[`renders correctly 1`] = `
                   <img
                     alt=""
                     className="feature-icon"
-                    src="login.png"
+                    src="icon-feature-01.png"
                   />
                   <div
                     className="feature-content"
@@ -127,7 +127,7 @@ exports[`renders correctly 1`] = `
                   <img
                     alt=""
                     className="feature-icon"
-                    src="login.png"
+                    src="icon-feature-02.png"
                   />
                   <div
                     className="feature-content"
@@ -154,7 +154,7 @@ exports[`renders correctly 1`] = `
                   <img
                     alt=""
                     className="feature-icon"
-                    src="login.png"
+                    src="icon-feature-03.png"
                   />
                   <div
                     className="feature-content"
@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
                   <img
                     alt=""
                     className="feature-icon"
-                    src="login.png"
+                    src="icon-feature-04.png"
                   />
                   <div
                     className="feature-content"
@@ -267,7 +267,7 @@ exports[`renders correctly 1`] = `
                       <img
                         alt=""
                         className=""
-                        src="test.png"
+                        src="icon-service-01.png"
                       />
                     </figure>
                     <div
@@ -294,7 +294,7 @@ exports[`renders correctly 1`] = `
                       <img
                         alt=""
                         className=""
-                        src="test.png"
+                        src="icon-service-02.png"
                       />
                     </figure>
                     <div
@@ -321,7 +321,7 @@ exports[`renders correctly 1`] = `
                       <img
                         alt=""
                         className=""
-                        src="test.png"
+                        src="icon-service-03.png"
                       />
                     </figure>
                     <div

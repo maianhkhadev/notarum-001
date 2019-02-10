@@ -32,14 +32,14 @@ export default function (props) {
               <div className="row">
                 <div className="col-xl-4">
                   <div className="feature">
-                    <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <img className="feature-icon" src={ require('@/assets/images/icon-feature-01.png') } alt=""/>
                     <div className="feature-content">
                       <h4 className="feature-title">Faster Processing</h4>
                       <p className="feature-text">Supercharge your processes with goal-centric planning</p>
                     </div>
                   </div>
                   <div className="feature">
-                    <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <img className="feature-icon" src={ require('@/assets/images/icon-feature-02.png') } alt=""/>
                     <div className="feature-content">
                       <h4 className="feature-title">Primary Source Verification</h4>
                       <p className="feature-text">Use data with verifiable provenance in your decisioning</p>
@@ -48,14 +48,14 @@ export default function (props) {
                 </div>
                 <div className="col-xl-4">
                   <div className="feature">
-                    <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <img className="feature-icon" src={ require('@/assets/images/icon-feature-03.png') } alt=""/>
                     <div className="feature-content">
                       <h4 className="feature-title">Smart Screening</h4>
                       <p className="feature-text">Cut through the noise and reduce false positives</p>
                     </div>
                   </div>
                   <div className="feature">
-                    <img className="feature-icon" src={ require('@/assets/images/login.png') } alt=""/>
+                    <img className="feature-icon" src={ require('@/assets/images/icon-feature-04.png') } alt=""/>
                     <div className="feature-content">
                       <h4 className="feature-title">Collaborative Workflow</h4>
                       <p className="feature-text">Keep everyone on the same page with new ways to easily share work and collect feedback</p>

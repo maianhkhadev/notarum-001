@@ -20,7 +20,7 @@ export default function (props) {
             <div className="col-xl-6">
               <div className="service">
                 <figure className="">
-                  <img className="" src={ require('@/assets/images/test.png') } alt="" />
+                  <img className="" src={ require('@/assets/images/icon-service-01.png') } alt="" />
                 </figure>
                 <div className="service-content">
                   <h4 className="service-name">Efficient</h4>
@@ -30,7 +30,7 @@ export default function (props) {
 
               <div className="service">
                 <figure className="">
-                  <img className="" src={ require('@/assets/images/test.png') } alt="" />
+                  <img className="" src={ require('@/assets/images/icon-service-02.png') } alt="" />
                 </figure>
                 <div className="service-content">
                   <h4 className="service-name">Effective</h4>
@@ -40,7 +40,7 @@ export default function (props) {
 
               <div className="service">
                 <figure className="">
-                  <img className="" src={ require('@/assets/images/test.png') } alt="" />
+                  <img className="" src={ require('@/assets/images/icon-service-03.png') } alt="" />
                 </figure>
                 <div className="service-content">
                   <h4 className="service-name">Compliant</h4>
