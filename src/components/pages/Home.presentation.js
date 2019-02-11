@@ -21,7 +21,7 @@ export default function (props) {
                   <button className="btn btn-primary">Learn More</button>
                 </div>
                 <div className="col-xl-6">
-                  <img className="w-100" src={ require('@/assets/images/process.png') } alt=""/>
+                  <img className="w-100" src={ require('@/assets/images/section-hero-thumbnail.svg') } alt=""/>
                 </div>
               </div>
             </div>

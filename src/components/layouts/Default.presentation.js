@@ -10,7 +10,7 @@ export default function (props) {
               <span>N</span>otarum
             </a>
             <form className="form-inline">
-              <button className="btn btn-outline-dark">Free trial</button>
+              <button className="btn btn-outline-dark">Sign in</button>
             </form>
           </nav>
         </div>
@@ -96,7 +96,7 @@ export default function (props) {
           <section className="section-02">
             <div className="row">
               <div className="col-xl-3">
-                <h5 className="footer-title">Get Socials</h5>
+                <h5 className="footer-title">Get Social</h5>
 
                 <ul className="footer-nav">
                   <li className="footer-item">
@@ -115,8 +115,6 @@ export default function (props) {
                 <div className="address">32 Carpenter Street 059911 Singapore</div>
               </div>
               <div className="col-xl-3">
-                <h5 className="footer-title">Vietnam</h5>
-                <div className="address">32 Carpenter Street 059911 Singapore</div>
               </div>
               <div className="col-xl-3">
               </div>
@@ -125,7 +123,7 @@ export default function (props) {
         </div>
 
         <div className="copyright">
-          <span>Copyright 2019 Notarum</span>
+          <span className="mr-2">Copyright 2019 Notarum</span>
           <span>All Rights Reserved</span>
         </div>
       </footer>
