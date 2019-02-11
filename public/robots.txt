@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: http://demo-001.maianhkha.com/sitemap.xml
