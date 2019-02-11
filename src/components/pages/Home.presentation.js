@@ -32,6 +32,12 @@ export default function (props) {
           <section className="section-features">
             <div className="container">
               <div className="row">
+                <div className="col-xl-4 order-xl-last align-self-center">
+                  <div className="section-content">
+                    <h3 className="section-title">Where your due diligence work thrives</h3>
+                    <p className="text">Notarum makes performing due diligence analysis and sharing work with team mates easier than ever.</p>
+                  </div>
+                </div>
                 <div className="col-xl-4">
                   <div className="feature">
                     <img className="feature-icon" src={ require('@/assets/images/icon-feature-01.png') } alt=""/>
@@ -63,10 +69,6 @@ export default function (props) {
                       <p className="feature-text">Keep everyone on the same page with new ways to easily share work and collect feedback</p>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-4 align-self-center">
-                  <h3 className="section-title">Where your due diligence work thrives</h3>
-                  <p className="text">Notarum makes performing due diligence analysis and sharing work with team mates easier than ever.</p>
                 </div>
               </div>
             </div>

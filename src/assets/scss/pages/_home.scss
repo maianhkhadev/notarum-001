@@ -58,17 +58,26 @@
 
   .section-features {
     background-color: #ffffff;
-    padding: 5rem 0;
+    padding: 5rem 0 3.125rem;
 
-    .section-title {
-      text-align: right;
-      margin-bottom: 1rem;
-    }
+    .section-content {
 
-    .text {
-      font-size: 1rem;
-      text-align: right;
-      margin-bottom: 0;
+      @media screen and (min-width: 600px) {
+        text-align: right;
+      }
+
+      @media screen and (max-width: 600px) {
+        margin-bottom: 1.875rem;
+      }
+
+      .section-title {
+        margin-bottom: 1rem;
+      }
+
+      .text {
+        font-size: 1rem;
+        margin-bottom: 0;
+      }
     }
 
     .feature {
@@ -78,13 +87,6 @@
       border-radius: 0.75rem;
       padding: 1.25rem;
       margin-bottom: 1.875rem;
-
-      @media screen and (min-width: 600px) {
-
-        &:last-child {
-          margin-bottom: 1.875rem;
-        }
-      }
 
       .feature-icon {
         width: 4.75rem;
@@ -116,6 +118,10 @@
     .section-header {
       margin-bottom: 3.25rem;
 
+      @media screen and (max-width: 600px) {
+        margin-bottom: 2.75rem;
+      }
+
       .section-title {
         margin-bottom: 1rem;
       }
@@ -130,7 +136,7 @@
       height: auto;
 
       @media screen and (max-width: 600px) {
-        margin-bottom: 1.25rem;
+        margin-bottom: 2.75rem;
       }
     }
 
