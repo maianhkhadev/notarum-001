@@ -167,41 +167,6 @@
     }
   }
 
-  .section-tutorial {
-    background-color: #ffffff;
-    padding: 5rem 0 3.75rem;
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 3.25rem;
-    }
-
-    .step {
-      text-align: center;
-      padding: 1.25rem;
-
-      .icon {
-        width: 10rem;
-        height: auto;
-        margin-bottom: 0.5rem;
-      }
-
-      .title {
-        font-size: 1.25rem;
-        text-transform: capitalize;
-        margin-bottom: 1rem;
-
-        strong {
-          color: #0b75b9;
-        }
-      }
-
-      .text {
-        margin-bottom: 0;
-      }
-    }
-  }
-
   .section-contact {
     background-color: #ffffff;
     padding: 5rem 0;
@@ -210,9 +175,9 @@
       margin-bottom: 1rem;
     }
 
-    .text {
-      margin-bottom: 3rem;
-    }
+    // .text {
+    //   margin-bottom: 2rem;
+    // }
 
     .thumbnail {
       width: 100%;
