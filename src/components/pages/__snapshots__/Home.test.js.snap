@@ -418,12 +418,18 @@ exports[`renders correctly 1`] = `
                 <div
                   className="form-group"
                 >
-                  <label>
+                  <label
+                    htmlFor="field-name"
+                    id="label-name"
+                  >
                     Name
                   </label>
                   <input
+                    aria-label="name"
+                    aria-labelledby="label-name"
                     className="form-control"
-                    placeholder="Ex: Mai Anh Kha"
+                    id="field-name"
+                    placeholder="Ex: James Smith"
                     type="text"
                   />
                 </div>
@@ -431,26 +437,34 @@ exports[`renders correctly 1`] = `
                   className="form-group"
                 >
                   <label
-                    htmlFor="exampleInputEmail1"
+                    htmlFor="field-email"
+                    id="label-email"
                   >
                     Email address
                   </label>
                   <input
-                    aria-describedby="emailHelp"
+                    aria-label="email"
+                    aria-labelledby="label-email"
                     className="form-control"
-                    id="exampleInputEmail1"
-                    placeholder="Enter email"
+                    id="field-email"
+                    placeholder="Ex: james.smith@gmail.com"
                     type="email"
                   />
                 </div>
                 <div
                   className="form-group"
                 >
-                  <label>
+                  <label
+                    htmlFor="field-message"
+                    id="label-message"
+                  >
                     Message
                   </label>
                   <textarea
+                    aria-label="message"
+                    aria-labelledby="label-message"
                     className="form-control"
+                    id="field-message"
                     rows="5"
                   />
                 </div>

@@ -13,16 +13,16 @@ export default function (props) {
           </div>
           <form className="col-xl-6">
             <div className="form-group">
-              <label>Name</label>
-              <input type="text" className="form-control" placeholder="Ex: Mai Anh Kha" />
+              <label id="label-name" htmlFor="field-name">Name</label>
+              <input type="text" id="field-name" className="form-control" placeholder="Ex: James Smith" aria-label="name" aria-labelledby="label-name" />
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+              <label id="label-email" htmlFor="field-email">Email address</label>
+              <input type="email" id="field-email" className="form-control" placeholder="Ex: james.smith@gmail.com" aria-label="email" aria-labelledby="label-email" />
             </div>
             <div className="form-group">
-              <label>Message</label>
-              <textarea className="form-control" rows="5"></textarea>
+              <label id="label-message" htmlFor="field-message">Message</label>
+              <textarea id="field-message" className="form-control" rows="5" aria-label="message" aria-labelledby="label-message"></textarea>
             </div>
             <button type="submit" className="btn btn-primary btn-block">Submit</button>
           </form>
