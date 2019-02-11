@@ -29,22 +29,30 @@
   .section-hero {
     padding: 10rem 0 5rem;
 
-    .section-title {
-      text-transform: uppercase;
-      margin-bottom: 1.25rem;
-    }
+    .section-content {
 
-    .text {
-      font-size: 1rem;
-      margin-bottom: 1.75rem;
-    }
+      @media screen and (max-width: 600px) {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
 
-    button {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      border-radius: unset;
-      padding: 0.75rem 1.5rem;
+      .section-title {
+        text-transform: uppercase;
+        margin-bottom: 1.25rem;
+      }
+
+      .text {
+        font-size: 1rem;
+        margin-bottom: 1.75rem;
+      }
+
+      button {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: unset;
+        padding: 0.75rem 1.5rem;
+      }
     }
   }
 
@@ -69,9 +77,13 @@
       background-color: #e9f5ff;
       border-radius: 0.75rem;
       padding: 1.25rem;
+      margin-bottom: 1.875rem;
 
-      &:not(:last-child) {
-        margin-bottom: 1.875rem;
+      @media screen and (min-width: 600px) {
+
+        &:last-child {
+          margin-bottom: 1.875rem;
+        }
       }
 
       .feature-icon {
@@ -113,38 +125,57 @@
       }
     }
 
+    .section-thumbnail {
+      width: 100%;
+      height: auto;
+
+      @media screen and (max-width: 600px) {
+        margin-bottom: 1.25rem;
+      }
+    }
+
     .service {
       display: flex;
-      flex-direction: row;
+      align-items: flex-start;
 
       &:not(:last-child) {
         margin-bottom: 2.75rem;
       }
 
       figure {
+        position: relative;
         background-color: #ffffff;
         border-radius: 50%;
         box-shadow: 0 0.5rem 1rem 0 rgba(71, 71, 71, 0.2);
-        padding: 1.25rem;
+        width: 5rem;
+        height: 5rem;
         margin-right: 1.25rem;
         margin-bottom: 0;
 
         img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
           width: 2.5rem;
           height: auto;
+          transform: translate(-50%, -50%);
         }
       }
 
-      .service-name {
-        color: #222222;
-        font-size: 1.25rem;
-        font-family: $title-font;
-      }
+      .service-content {
+        flex: 1;
 
-      .service-text {
-        color: #777777;
-        font-size: 1rem;
-        margin-bottom: 0;
+        .service-name {
+          color: #222222;
+          font-size: 1.25rem;
+          font-family: $title-font;
+        }
+
+        .service-text {
+          color: #777777;
+          font-size: 1rem;
+          margin-bottom: 0;
+        }
       }
     }
   }
@@ -175,13 +206,17 @@
       margin-bottom: 1rem;
     }
 
-    // .text {
-    //   margin-bottom: 2rem;
-    // }
+    .text {
+      margin-bottom: 1.25rem;
+    }
 
     .thumbnail {
       width: 100%;
       height: auto;
+
+      @media screen and (max-width: 600px) {
+        margin-bottom: 1.25rem;
+      }
     }
 
     .form-group {

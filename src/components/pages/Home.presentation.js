@@ -16,9 +16,11 @@ export default function (props) {
             <div className="container">
               <div className="row">
                 <div className="col-xl-6 align-self-center">
-                  <h1 className="section-title">Automating corporate due diligence</h1>
-                  <p className="text">Notarum is a modern due diligence workflow tool designed to reduce busywork—so you can focus on the bigger picture.</p>
-                  <button className="btn btn-primary">Learn More</button>
+                  <div className="section-content">
+                    <h1 className="section-title">Automating corporate due diligence</h1>
+                    <p className="text">Notarum is a modern due diligence workflow tool designed to reduce busywork—so you can focus on the bigger picture.</p>
+                    <button className="btn btn-primary">Learn More</button>
+                  </div>
                 </div>
                 <div className="col-xl-6">
                   <img className="w-100" src={ require('@/assets/images/section-hero-thumbnail.svg') } alt=""/>

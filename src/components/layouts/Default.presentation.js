@@ -23,7 +23,7 @@ export default function (props) {
       <footer className="layout-footer">
         <div className="container">
           <div className="row">
-            <div className="col-xl-3">
+            <div className="col-xl-3 col-6">
               <h5 className="footer-title">Quicklinks</h5>
 
               <ul className="footer-nav">
@@ -38,7 +38,7 @@ export default function (props) {
                 </li>
               </ul>
             </div>
-            <div className="col-xl-3">
+            <div className="col-xl-3 col-6">
               <h5 className="footer-title">Get Social</h5>
 
               <ul className="footer-nav">
@@ -53,11 +53,18 @@ export default function (props) {
                 </li>
               </ul>
             </div>
-            <div className="col-xl-3">
+            <div className="col-xl-3 col-6">
               <h5 className="footer-title">Singapore</h5>
               <div className="address">32 Carpenter Street 059911 Singapore</div>
             </div>
-            <div className="col-xl-3">
+            <div className="col-xl-3 col-6">
+              <h5 className="footer-title">Give us a ring</h5>
+
+              <ul className="footer-nav">
+                <li className="footer-item">
+                  <a className="footer-link" href="tel:+6591132186">+65 9113 2186</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

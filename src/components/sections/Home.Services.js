@@ -15,7 +15,7 @@ export default function (props) {
         <div className="section-content">
           <div className="row">
             <div className="col-xl-6">
-              <img className="w-100" src={ require('@/assets/images/macbook.png') } alt="" />
+              <img className="section-thumbnail" src={ require('@/assets/images/macbook.png') } alt="" />
             </div>
             <div className="col-xl-6">
               <div className="service">
