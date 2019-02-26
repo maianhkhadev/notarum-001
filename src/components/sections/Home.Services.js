@@ -7,7 +7,7 @@ export default function (props) {
         <div className="section-header">
           <div className="row">
             <div className="col-xl-8 mx-auto text-center">
-              <h2 className="section-title">We service all companies across all industries</h2>
+              <h2 className="section-title">We service <span className="word">all companies</span> across <span className="word">all industries</span></h2>
               <p className="text">From fund management to legal and professional services, our platform empowers your compliance teams to make accurate, compliant decisions.</p>
             </div>
           </div>
@@ -15,9 +15,9 @@ export default function (props) {
         <div className="section-content">
           <div className="row">
             <div className="col-xl-6">
-              <img className="section-thumbnail" src={ require('@/assets/images/macbook.png') } alt="" />
+              <img className="section-thumbnail" src={ require('@/assets/images/section-services-thumbnail.svg') } alt="" />
             </div>
-            <div className="col-xl-6">
+            <div className="col-xl-6 align-self-center">
               <div className="service">
                 <figure className="">
                   <img className="" src={ require('@/assets/images/icon-service-01.png') } alt="" />

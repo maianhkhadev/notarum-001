@@ -25,7 +25,6 @@ class Layout extends React.Component {
     });
   }
 
-
   render() {
     let props = {...this.state, ...this.props};
 

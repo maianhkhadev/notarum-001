@@ -14,15 +14,15 @@ export default function (props) {
           <form className="col-xl-6">
             <div className="form-group">
               <label id="label-name" htmlFor="field-name">Name</label>
-              <input type="text" id="field-name" className="form-control" placeholder="Ex: James Smith" aria-label="name" aria-labelledby="label-name" />
+              <input type="text" id="field-name" className="form-control" placeholder="E.g. James Smith" required aria-label="name" aria-labelledby="label-name" />
             </div>
             <div className="form-group">
               <label id="label-email" htmlFor="field-email">Email address</label>
-              <input type="email" id="field-email" className="form-control" placeholder="Ex: james.smith@gmail.com" aria-label="email" aria-labelledby="label-email" />
+              <input type="email" id="field-email" className="form-control" placeholder="E.g. james.smith@gmail.com" required aria-label="email" aria-labelledby="label-email" />
             </div>
             <div className="form-group">
-              <label id="label-message" htmlFor="field-message">Message</label>
-              <textarea id="field-message" className="form-control" rows="5" aria-label="message" aria-labelledby="label-message"></textarea>
+              <label id="label-message" htmlFor="field-message">Drop us a Note</label>
+              <textarea id="field-message" className="form-control" rows="5" required aria-label="message" aria-labelledby="label-message"></textarea>
             </div>
             <button type="submit" className="btn btn-primary btn-block">Submit</button>
           </form>

@@ -1,6 +1,8 @@
 import React from 'react';
+import { scrollIntoView } from '@/core/functions';
+// LAYOUT
 import Layout from '@/components/layouts/Default';
-//Sections
+// SECTIONS
 import SectionServices from '@/components/sections/Home.Services';
 import SectionContact from '@/components/sections/Home.Contact';
 
@@ -19,7 +21,7 @@ export default function (props) {
                   <div className="section-content">
                     <h1 className="section-title">Automating corporate due diligence</h1>
                     <p className="text">Notarum is a modern due diligence workflow tool designed to reduce busywork—so you can focus on the bigger picture.</p>
-                    <button className="btn btn-primary">Learn More</button>
+                    <button className="btn btn-primary" onClick={(e) => { scrollIntoView('.section-features'); }}>Learn More</button>
                   </div>
                 </div>
                 <div className="col-xl-6">

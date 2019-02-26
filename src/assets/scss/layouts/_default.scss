@@ -1,7 +1,35 @@
 .layout-default {
 
+  .alert {
+    color: #ffffff;
+    background-color: #222222;
+    font-size: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+
+    @media screen and (max-width: 600px) {
+      text-align: center;
+    }
+
+    .btn {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: unset;
+      padding: 0.5rem 1.5rem;
+
+      @media screen and (min-width: 600px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 600px) {
+        margin-top: 1rem;
+      }
+    }
+  }
+
   .layout-header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
