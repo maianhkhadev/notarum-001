@@ -4,6 +4,34 @@ exports[`renders correctly 1`] = `
 <div
   className="layout layout-default"
 >
+  <div
+    className="alert alert-warning alert-dismissible fade show"
+    role="alert"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xl-10"
+        >
+          We use cookies to make interactions with our websites and services easy and meaningful, to better understand how they are used and to tailor advertising. You can read more and make your cookie choices
+        </div>
+        <div
+          className="col-xl-2"
+        >
+          <button
+            className="btn btn-primary"
+            data-dismiss="alert"
+          >
+            Got it
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
   <header
     className="layout-header"
   >
@@ -15,7 +43,9 @@ exports[`renders correctly 1`] = `
       >
         <a
           className="navbar-brand"
-          href="index.html"
+          href="https://notarum.com/"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <span>
             N
@@ -25,11 +55,14 @@ exports[`renders correctly 1`] = `
         <form
           className="form-inline"
         >
-          <button
+          <a
             className="btn btn-outline-dark"
+            href="https://app.notarum.com/"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             Sign in
-          </button>
+          </a>
         </form>
       </nav>
     </div>
@@ -73,6 +106,7 @@ exports[`renders correctly 1`] = `
                   </p>
                   <button
                     className="btn btn-primary"
+                    onClick={[Function]}
                   >
                     Learn More
                   </button>
@@ -244,7 +278,18 @@ exports[`renders correctly 1`] = `
                   <h2
                     className="section-title"
                   >
-                    We service all companies across all industries
+                    We service 
+                    <span
+                      className="word"
+                    >
+                      all companies
+                    </span>
+                     across 
+                    <span
+                      className="word"
+                    >
+                      all industries
+                    </span>
                   </h2>
                   <p
                     className="text"
@@ -266,11 +311,17 @@ exports[`renders correctly 1`] = `
                   <img
                     alt=""
                     className="section-thumbnail"
-                    src="macbook.png"
+                    src={
+                      Object {
+                        "ReactComponent": [Function],
+                        "__esModule": true,
+                        "default": "section-services-thumbnail.svg",
+                      }
+                    }
                   />
                 </div>
                 <div
-                  className="col-xl-6"
+                  className="col-xl-6 align-self-center"
                 >
                   <div
                     className="service"
@@ -437,7 +488,8 @@ exports[`renders correctly 1`] = `
                     aria-labelledby="label-name"
                     className="form-control"
                     id="field-name"
-                    placeholder="Ex: James Smith"
+                    placeholder="E.g. James Smith"
+                    required={true}
                     type="text"
                   />
                 </div>
@@ -455,7 +507,8 @@ exports[`renders correctly 1`] = `
                     aria-labelledby="label-email"
                     className="form-control"
                     id="field-email"
-                    placeholder="Ex: james.smith@gmail.com"
+                    placeholder="E.g. james.smith@gmail.com"
+                    required={true}
                     type="email"
                   />
                 </div>
@@ -466,13 +519,14 @@ exports[`renders correctly 1`] = `
                     htmlFor="field-message"
                     id="label-message"
                   >
-                    Message
+                    Drop us a Note
                   </label>
                   <textarea
                     aria-label="message"
                     aria-labelledby="label-message"
                     className="form-control"
                     id="field-message"
+                    required={true}
                     rows="5"
                   />
                 </div>
@@ -560,17 +614,9 @@ exports[`renders correctly 1`] = `
             >
               <a
                 className="footer-link"
-                href="index.html"
-              >
-                Facebook
-              </a>
-            </li>
-            <li
-              className="footer-item"
-            >
-              <a
-                className="footer-link"
-                href="index.html"
+                href="https://twitter.com/notarum"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Twitter
               </a>
@@ -580,26 +626,14 @@ exports[`renders correctly 1`] = `
             >
               <a
                 className="footer-link"
-                href="index.html"
+                href="https://www.linkedin.com"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Linkedin
               </a>
             </li>
           </ul>
-        </div>
-        <div
-          className="col-xl-3 col-6"
-        >
-          <h5
-            className="footer-title"
-          >
-            Singapore
-          </h5>
-          <div
-            className="address"
-          >
-            32 Carpenter Street 059911 Singapore
-          </div>
         </div>
         <div
           className="col-xl-3 col-6"
@@ -623,6 +657,20 @@ exports[`renders correctly 1`] = `
               </a>
             </li>
           </ul>
+        </div>
+        <div
+          className="col-xl-3 col-6"
+        >
+          <h5
+            className="footer-title"
+          >
+            Singapore
+          </h5>
+          <div
+            className="address"
+          >
+            32 Carpenter Street 059911 Singapore
+          </div>
         </div>
       </div>
     </div>
