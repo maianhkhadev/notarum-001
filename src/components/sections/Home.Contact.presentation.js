@@ -22,7 +22,7 @@ export default function (props) {
             </div>
             <div className="form-group">
               <label id="label-message" htmlFor="field-message">Drop us a Note</label>
-              <textarea id="field-message" className="form-control" rows="5" required aria-label="message" aria-labelledby="label-message"></textarea>
+              <textarea id="field-message" className="form-control" rows="3" required aria-label="message" aria-labelledby="label-message"></textarea>
             </div>
             <button type="submit" className="btn btn-primary btn-block">Submit</button>
           </form>

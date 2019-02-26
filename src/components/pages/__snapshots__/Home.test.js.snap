@@ -527,7 +527,7 @@ exports[`renders correctly 1`] = `
                     className="form-control"
                     id="field-message"
                     required={true}
-                    rows="5"
+                    rows="3"
                   />
                 </div>
                 <button
